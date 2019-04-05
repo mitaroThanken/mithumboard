@@ -121,35 +121,35 @@ Text GLabel 2700 3075 0    50   Input ~ 0
 A1
 Text GLabel 2700 3175 0    50   Input ~ 0
 A0
-Text GLabel 4100 1575 2    50   Input ~ 0
-R1C1
-Text GLabel 4100 1675 2    50   Input ~ 0
-R1C2
-Text GLabel 4100 1775 2    50   Input ~ 0
-R1C3
-Text GLabel 4100 1875 2    50   Input ~ 0
-R1C4
-Text GLabel 4100 1975 2    50   Input ~ 0
-R1C5
-Text GLabel 4100 2075 2    50   Input ~ 0
-R2C1
 Text GLabel 4100 2175 2    50   Input ~ 0
-R2C2
+R1C1
 Text GLabel 4100 2275 2    50   Input ~ 0
-R2C3
+R1C2
 Text GLabel 4100 2475 2    50   Input ~ 0
-R2C4
+R1C3
 Text GLabel 4100 2575 2    50   Input ~ 0
-R2C5
+R1C4
 Text GLabel 4100 2675 2    50   Input ~ 0
-R3C1
-Text GLabel 4100 2875 2    50   Input ~ 0
-R3C3
-Text GLabel 4100 2975 2    50   Input ~ 0
-R3C4
-Text GLabel 4100 3075 2    50   Input ~ 0
-R3C5
+R1C5
+Text GLabel 4100 1875 2    50   Input ~ 0
+R2C1
+Text GLabel 4100 2075 2    50   Input ~ 0
+R2C2
+Text GLabel 4100 1975 2    50   Input ~ 0
+R2C3
 Text GLabel 4100 2775 2    50   Input ~ 0
+R2C4
+Text GLabel 4100 2875 2    50   Input ~ 0
+R2C5
+Text GLabel 4100 1775 2    50   Input ~ 0
+R3C1
+Text GLabel 4100 1575 2    50   Input ~ 0
+R3C3
+Text GLabel 4100 3075 2    50   Input ~ 0
+R3C4
+Text GLabel 4100 2975 2    50   Input ~ 0
+R3C5
+Text GLabel 4100 1675 2    50   Input ~ 0
 R3C2
 NoConn ~ 4100 3175
 $Comp
