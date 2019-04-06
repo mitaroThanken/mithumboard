@@ -121,35 +121,35 @@ Text GLabel 2700 3075 0    50   Input ~ 0
 A1
 Text GLabel 2700 3175 0    50   Input ~ 0
 A0
-Text GLabel 4100 2175 2    50   Input ~ 0
+Text GLabel 4100 2975 2    50   Input ~ 0
 R1C1
-Text GLabel 4100 2275 2    50   Input ~ 0
+Text GLabel 4100 3075 2    50   Input ~ 0
 R1C2
-Text GLabel 4100 2475 2    50   Input ~ 0
+Text GLabel 4100 1575 2    50   Input ~ 0
 R1C3
-Text GLabel 4100 2575 2    50   Input ~ 0
+Text GLabel 4100 1675 2    50   Input ~ 0
 R1C4
-Text GLabel 4100 2675 2    50   Input ~ 0
+Text GLabel 4100 1775 2    50   Input ~ 0
 R1C5
-Text GLabel 4100 1875 2    50   Input ~ 0
+Text GLabel 4100 2875 2    50   Input ~ 0
 R2C1
-Text GLabel 4100 2075 2    50   Input ~ 0
+Text GLabel 4100 2775 2    50   Input ~ 0
 R2C2
 Text GLabel 4100 1975 2    50   Input ~ 0
 R2C3
-Text GLabel 4100 2775 2    50   Input ~ 0
+Text GLabel 4100 2075 2    50   Input ~ 0
 R2C4
-Text GLabel 4100 2875 2    50   Input ~ 0
+Text GLabel 4100 1875 2    50   Input ~ 0
 R2C5
-Text GLabel 4100 1775 2    50   Input ~ 0
+Text GLabel 4100 2675 2    50   Input ~ 0
 R3C1
-Text GLabel 4100 1575 2    50   Input ~ 0
+Text GLabel 4100 2475 2    50   Input ~ 0
 R3C3
-Text GLabel 4100 3075 2    50   Input ~ 0
+Text GLabel 4100 2275 2    50   Input ~ 0
 R3C4
-Text GLabel 4100 2975 2    50   Input ~ 0
+Text GLabel 4100 2175 2    50   Input ~ 0
 R3C5
-Text GLabel 4100 1675 2    50   Input ~ 0
+Text GLabel 4100 2575 2    50   Input ~ 0
 R3C2
 NoConn ~ 4100 3175
 $Comp
@@ -233,27 +233,25 @@ $EndComp
 $Comp
 L Switch:SW_Push SW7
 U 1 1 5CA5D53E
-P 5200 4300
-F 0 "SW7" H 5200 4585 50  0000 C CNN
-F 1 "SW_Push" H 5200 4494 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 5200 4500 50  0001 C CNN
-F 3 "" H 5200 4500 50  0001 C CNN
-	1    5200 4300
+P 5250 4300
+F 0 "SW7" H 5250 4585 50  0000 C CNN
+F 1 "SW_Push" H 5250 4494 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap_1side" H 5250 4500 50  0001 C CNN
+F 3 "" H 5250 4500 50  0001 C CNN
+	1    5250 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 4300 4900 4300
-Wire Wire Line
-	4900 4300 4900 4400
+	4925 4300 4925 4425
 $Comp
 L power:GND #PWR013
 U 1 1 5CA5D547
-P 4900 4400
-F 0 "#PWR013" H 4900 4150 50  0001 C CNN
-F 1 "GND" H 4905 4227 50  0000 C CNN
-F 2 "" H 4900 4400 50  0001 C CNN
-F 3 "" H 4900 4400 50  0001 C CNN
-	1    4900 4400
+P 4925 4425
+F 0 "#PWR013" H 4925 4175 50  0001 C CNN
+F 1 "GND" H 4930 4252 50  0000 C CNN
+F 2 "" H 4925 4425 50  0001 C CNN
+F 3 "" H 4925 4425 50  0001 C CNN
+	1    4925 4425
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -317,10 +315,8 @@ F 1 "SW_Push" H 3350 5344 50  0000 C CNN
 F 2 "kbd:CherryMX_Hotswap_1side" H 3350 5350 50  0001 C CNN
 F 3 "" H 3350 5350 50  0001 C CNN
 	1    3350 5150
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3150 5150 3050 5150
 Wire Wire Line
 	3050 5150 3050 5250
 $Comp
@@ -332,7 +328,7 @@ F 1 "GND" H 3055 5077 50  0000 C CNN
 F 2 "" H 3050 5250 50  0001 C CNN
 F 3 "" H 3050 5250 50  0001 C CNN
 	1    3050 5250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW5
@@ -363,42 +359,38 @@ $EndComp
 $Comp
 L Switch:SW_Push SW8
 U 1 1 5CA5F9FE
-P 5200 5150
-F 0 "SW8" H 5200 5435 50  0000 C CNN
-F 1 "SW_Push" H 5200 5344 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 5200 5350 50  0001 C CNN
-F 3 "" H 5200 5350 50  0001 C CNN
-	1    5200 5150
-	1    0    0    -1  
+P 5275 5150
+F 0 "SW8" H 5275 5435 50  0000 C CNN
+F 1 "SW_Push" H 5275 5344 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap_1side" H 5275 5350 50  0001 C CNN
+F 3 "" H 5275 5350 50  0001 C CNN
+	1    5275 5150
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 5150 4900 5150
-Wire Wire Line
-	4900 5150 4900 5250
+	4950 5150 4950 5250
 $Comp
 L power:GND #PWR014
 U 1 1 5CA5FA07
-P 4900 5250
-F 0 "#PWR014" H 4900 5000 50  0001 C CNN
-F 1 "GND" H 4905 5077 50  0000 C CNN
-F 2 "" H 4900 5250 50  0001 C CNN
-F 3 "" H 4900 5250 50  0001 C CNN
-	1    4900 5250
-	1    0    0    -1  
+P 4950 5250
+F 0 "#PWR014" H 4950 5000 50  0001 C CNN
+F 1 "GND" H 4955 5077 50  0000 C CNN
+F 2 "" H 4950 5250 50  0001 C CNN
+F 3 "" H 4950 5250 50  0001 C CNN
+	1    4950 5250
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW11
 U 1 1 5CA5FA0D
-P 6150 5150
-F 0 "SW11" H 6150 5435 50  0000 C CNN
-F 1 "SW_Push" H 6150 5344 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 6150 5350 50  0001 C CNN
-F 3 "" H 6150 5350 50  0001 C CNN
-	1    6150 5150
-	1    0    0    -1  
+P 6200 5150
+F 0 "SW11" H 6200 5435 50  0000 C CNN
+F 1 "SW_Push" H 6200 5344 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap_1side" H 6200 5350 50  0001 C CNN
+F 3 "" H 6200 5350 50  0001 C CNN
+	1    6200 5150
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 5150 5850 5150
 Wire Wire Line
 	5850 5150 5850 5250
 $Comp
@@ -410,7 +402,7 @@ F 1 "GND" H 5855 5077 50  0000 C CNN
 F 2 "" H 5850 5250 50  0001 C CNN
 F 3 "" H 5850 5250 50  0001 C CNN
 	1    5850 5250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW14
@@ -447,10 +439,8 @@ F 1 "SW_Push" H 3350 6194 50  0000 C CNN
 F 2 "kbd:CherryMX_Hotswap_1side" H 3350 6200 50  0001 C CNN
 F 3 "" H 3350 6200 50  0001 C CNN
 	1    3350 6000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3150 6000 3050 6000
 Wire Wire Line
 	3050 6000 3050 6100
 $Comp
@@ -462,7 +452,7 @@ F 1 "GND" H 3055 5927 50  0000 C CNN
 F 2 "" H 3050 6100 50  0001 C CNN
 F 3 "" H 3050 6100 50  0001 C CNN
 	1    3050 6100
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW6
@@ -493,28 +483,26 @@ $EndComp
 $Comp
 L Switch:SW_Push SW9
 U 1 1 5CA603F6
-P 5200 6000
-F 0 "SW9" H 5200 6285 50  0000 C CNN
-F 1 "SW_Push" H 5200 6194 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 5200 6200 50  0001 C CNN
-F 3 "" H 5200 6200 50  0001 C CNN
-	1    5200 6000
-	1    0    0    -1  
+P 5275 6000
+F 0 "SW9" H 5275 6285 50  0000 C CNN
+F 1 "SW_Push" H 5275 6194 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap_1side" H 5275 6200 50  0001 C CNN
+F 3 "" H 5275 6200 50  0001 C CNN
+	1    5275 6000
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 6000 4900 6000
-Wire Wire Line
-	4900 6000 4900 6100
+	4925 6000 4925 6100
 $Comp
 L power:GND #PWR015
 U 1 1 5CA603FF
-P 4900 6100
-F 0 "#PWR015" H 4900 5850 50  0001 C CNN
-F 1 "GND" H 4905 5927 50  0000 C CNN
-F 2 "" H 4900 6100 50  0001 C CNN
-F 3 "" H 4900 6100 50  0001 C CNN
-	1    4900 6100
-	1    0    0    -1  
+P 4925 6100
+F 0 "#PWR015" H 4925 5850 50  0001 C CNN
+F 1 "GND" H 4930 5927 50  0000 C CNN
+F 2 "" H 4925 6100 50  0001 C CNN
+F 3 "" H 4925 6100 50  0001 C CNN
+	1    4925 6100
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW12
@@ -545,16 +533,14 @@ $EndComp
 $Comp
 L Switch:SW_Push SW15
 U 1 1 5CA60414
-P 7100 6000
-F 0 "SW15" H 7100 6285 50  0000 C CNN
-F 1 "SW_Push" H 7100 6194 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 7100 6200 50  0001 C CNN
-F 3 "" H 7100 6200 50  0001 C CNN
-	1    7100 6000
-	1    0    0    -1  
+P 7150 6000
+F 0 "SW15" H 7150 6285 50  0000 C CNN
+F 1 "SW_Push" H 7150 6194 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap_1side" H 7150 6200 50  0001 C CNN
+F 3 "" H 7150 6200 50  0001 C CNN
+	1    7150 6000
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	6900 6000 6800 6000
 Wire Wire Line
 	6800 6000 6800 6100
 $Comp
@@ -566,13 +552,13 @@ F 1 "GND" H 6805 5927 50  0000 C CNN
 F 2 "" H 6800 6100 50  0001 C CNN
 F 3 "" H 6800 6100 50  0001 C CNN
 	1    6800 6100
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Text GLabel 3550 4300 2    50   Input ~ 0
 R1C1
 Text GLabel 4500 4300 2    50   Input ~ 0
 R1C2
-Text GLabel 5400 4300 2    50   Input ~ 0
+Text GLabel 5450 4300 2    50   Input ~ 0
 R1C3
 Text GLabel 6350 4300 2    50   Input ~ 0
 R1C4
@@ -582,9 +568,9 @@ Text GLabel 3550 5150 2    50   Input ~ 0
 R2C1
 Text GLabel 4500 5150 2    50   Input ~ 0
 R2C2
-Text GLabel 5400 5150 2    50   Input ~ 0
+Text GLabel 5475 5150 2    50   Input ~ 0
 R2C3
-Text GLabel 6350 5150 2    50   Input ~ 0
+Text GLabel 6400 5150 2    50   Input ~ 0
 R2C4
 Text GLabel 7300 5150 2    50   Input ~ 0
 R2C5
@@ -592,11 +578,11 @@ Text GLabel 3550 6000 2    50   Input ~ 0
 R3C1
 Text GLabel 4500 6000 2    50   Input ~ 0
 R3C2
-Text GLabel 5400 6000 2    50   Input ~ 0
+Text GLabel 5475 6000 2    50   Input ~ 0
 R3C3
 Text GLabel 6350 6000 2    50   Input ~ 0
 R3C4
-Text GLabel 7300 6000 2    50   Input ~ 0
+Text GLabel 7350 6000 2    50   Input ~ 0
 R3C5
 $Comp
 L power:VCC #PWR026
@@ -933,4 +919,18 @@ Wire Wire Line
 Connection ~ 7825 5900
 Wire Wire Line
 	7825 5900 7825 5925
+Wire Wire Line
+	3150 5150 3050 5150
+Wire Wire Line
+	3150 6000 3050 6000
+Wire Wire Line
+	5075 5150 4950 5150
+Wire Wire Line
+	5075 6000 4925 6000
+Wire Wire Line
+	5050 4300 4925 4300
+Wire Wire Line
+	6000 5150 5850 5150
+Wire Wire Line
+	6950 6000 6800 6000
 $EndSCHEMATC
