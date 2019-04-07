@@ -80,28 +80,26 @@ Text GLabel 3325 1200 0    50   Input ~ 0
 $Comp
 L Device:C C1
 U 1 1 5CA55176
-P 3625 1200
-F 0 "C1" V 3373 1200 50  0000 C CNN
-F 1 "100n" V 3464 1200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3663 1050 50  0001 C CNN
-F 3 "~" H 3625 1200 50  0001 C CNN
-	1    3625 1200
+P 3675 1200
+F 0 "C1" V 3423 1200 50  0000 C CNN
+F 1 "100n" V 3514 1200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3713 1050 50  0001 C CNN
+F 3 "~" H 3675 1200 50  0001 C CNN
+	1    3675 1200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3400 1200 3475 1200
+	3400 1200 3525 1200
 Connection ~ 3400 1200
-Wire Wire Line
-	3775 1200 3825 1200
 $Comp
 L power:GND #PWR09
 U 1 1 5CA5522B
-P 3825 1200
-F 0 "#PWR09" H 3825 950 50  0001 C CNN
-F 1 "GND" H 3830 1027 50  0000 C CNN
-F 2 "" H 3825 1200 50  0001 C CNN
-F 3 "" H 3825 1200 50  0001 C CNN
-	1    3825 1200
+P 3900 1200
+F 0 "#PWR09" H 3900 950 50  0001 C CNN
+F 1 "GND" H 3905 1027 50  0000 C CNN
+F 2 "" H 3900 1200 50  0001 C CNN
+F 3 "" H 3900 1200 50  0001 C CNN
+	1    3900 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -816,7 +814,7 @@ U 1 1 5CA650D1
 P 925 4300
 F 0 "J1" H 880 4625 50  0000 C CNN
 F 1 "AudioJack4" H 880 4534 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 925 4300 50  0001 C CNN
+F 2 "Connector_Audio_Mod:Jack_3.5mm_PJ320D_Horizontal_Mod" H 925 4300 50  0001 C CNN
 F 3 "~" H 925 4300 50  0001 C CNN
 	1    925  4300
 	1    0    0    -1  
@@ -860,7 +858,7 @@ U 1 1 5CA945E7
 P 950 5200
 F 0 "J2" H 905 5525 50  0000 C CNN
 F 1 "AudioJack4" H 905 5434 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 950 5200 50  0001 C CNN
+F 2 "Connector_Audio_Mod:Jack_3.5mm_PJ320D_Horizontal_Mod" H 950 5200 50  0001 C CNN
 F 3 "~" H 950 5200 50  0001 C CNN
 	1    950  5200
 	1    0    0    -1  
@@ -873,7 +871,7 @@ U 1 1 5CA964C3
 P 2250 4300
 F 0 "J3" H 2205 4625 50  0000 C CNN
 F 1 "AudioJack4" H 2205 4534 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 2250 4300 50  0001 C CNN
+F 2 "Connector_Audio_Mod:Jack_3.5mm_PJ320D_Horizontal_Mod" H 2250 4300 50  0001 C CNN
 F 3 "~" H 2250 4300 50  0001 C CNN
 	1    2250 4300
 	1    0    0    -1  
@@ -891,7 +889,7 @@ U 1 1 5CA9FF13
 P 2250 5150
 F 0 "J4" H 2205 5475 50  0000 C CNN
 F 1 "AudioJack4" H 2205 5384 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 2250 5150 50  0001 C CNN
+F 2 "Connector_Audio_Mod:Jack_3.5mm_PJ320D_Horizontal_Mod" H 2250 5150 50  0001 C CNN
 F 3 "~" H 2250 5150 50  0001 C CNN
 	1    2250 5150
 	1    0    0    -1  
@@ -933,4 +931,6 @@ Wire Wire Line
 	6000 5150 5850 5150
 Wire Wire Line
 	6950 6000 6800 6000
+Wire Wire Line
+	3825 1200 3900 1200
 $EndSCHEMATC
