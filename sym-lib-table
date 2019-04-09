@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name kbd)(type Legacy)(uri ${KIPRJMOD}/lib/kbd/library/kbd.lib)(options "")(descr ""))
+  (lib (name mithumboard-rescue)(type Legacy)(uri ${KIPRJMOD}/mithumboard-rescue.lib)(options "")(descr ""))
 )

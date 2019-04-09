@@ -83,7 +83,7 @@ U 1 1 5CA55176
 P 3675 1200
 F 0 "C1" V 3423 1200 50  0000 C CNN
 F 1 "100n" V 3514 1200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3713 1050 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 3713 1050 50  0001 C CNN
 F 3 "~" H 3675 1200 50  0001 C CNN
 	1    3675 1200
 	0    1    1    0   
@@ -119,35 +119,35 @@ Text GLabel 2700 3075 0    50   Input ~ 0
 A1
 Text GLabel 2700 3175 0    50   Input ~ 0
 A0
-Text GLabel 4100 2975 2    50   Input ~ 0
-R1C1
-Text GLabel 4100 3075 2    50   Input ~ 0
-R1C2
-Text GLabel 4100 1575 2    50   Input ~ 0
-R1C3
-Text GLabel 4100 1675 2    50   Input ~ 0
-R1C4
 Text GLabel 4100 1775 2    50   Input ~ 0
-R1C5
-Text GLabel 4100 2875 2    50   Input ~ 0
-R2C1
-Text GLabel 4100 2775 2    50   Input ~ 0
-R2C2
-Text GLabel 4100 1975 2    50   Input ~ 0
-R2C3
-Text GLabel 4100 2075 2    50   Input ~ 0
-R2C4
+R1C1
 Text GLabel 4100 1875 2    50   Input ~ 0
-R2C5
+R1C2
+Text GLabel 4100 2175 2    50   Input ~ 0
+R1C3
+Text GLabel 4100 2575 2    50   Input ~ 0
+R1C4
+Text GLabel 4100 2875 2    50   Input ~ 0
+R1C5
+Text GLabel 4100 1675 2    50   Input ~ 0
+R2C1
+Text GLabel 4100 1975 2    50   Input ~ 0
+R2C2
+Text GLabel 4100 2275 2    50   Input ~ 0
+R2C3
 Text GLabel 4100 2675 2    50   Input ~ 0
+R2C4
+Text GLabel 4100 2975 2    50   Input ~ 0
+R2C5
+Text GLabel 4100 1575 2    50   Input ~ 0
 R3C1
 Text GLabel 4100 2475 2    50   Input ~ 0
 R3C3
-Text GLabel 4100 2275 2    50   Input ~ 0
+Text GLabel 4100 2775 2    50   Input ~ 0
 R3C4
-Text GLabel 4100 2175 2    50   Input ~ 0
+Text GLabel 4100 3075 2    50   Input ~ 0
 R3C5
-Text GLabel 4100 2575 2    50   Input ~ 0
+Text GLabel 4100 2075 2    50   Input ~ 0
 R3C2
 NoConn ~ 4100 3175
 $Comp
@@ -162,19 +162,17 @@ F 3 "" H 1550 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1125 4500 1200 4500
+	1125 4250 1425 4250
 Wire Wire Line
-	1200 4500 1200 4550
-Text GLabel 1200 4550 3    50   Input ~ 0
+	1425 4250 1425 4550
+Text GLabel 1425 4550 3    50   Input ~ 0
 3.3V
 Wire Wire Line
 	1125 4200 1550 4200
 Wire Wire Line
 	1550 4200 1550 4550
-NoConn ~ 2450 4500
-Wire Wire Line
-	2450 4400 2500 4400
-Text GLabel 2500 4400 2    50   Input ~ 0
+NoConn ~ 2300 4250
+Text GLabel 2400 4300 2    50   Input ~ 0
 INT
 $Comp
 L Switch:SW_Push SW1
@@ -182,7 +180,7 @@ U 1 1 5CA5B229
 P 3350 4300
 F 0 "SW1" H 3350 4585 50  0000 C CNN
 F 1 "SW_Push" H 3350 4494 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 3350 4500 50  0001 C CNN
+F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 3350 4500 50  0001 C CNN
 F 3 "" H 3350 4500 50  0001 C CNN
 	1    3350 4300
 	1    0    0    -1  
@@ -208,10 +206,10 @@ U 1 1 5CA5C770
 P 4300 4300
 F 0 "SW4" H 4300 4585 50  0000 C CNN
 F 1 "SW_Push" H 4300 4494 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 4300 4500 50  0001 C CNN
+F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 4300 4500 50  0001 C CNN
 F 3 "" H 4300 4500 50  0001 C CNN
 	1    4300 4300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4100 4300 4000 4300
@@ -234,10 +232,10 @@ U 1 1 5CA5D53E
 P 5250 4300
 F 0 "SW7" H 5250 4585 50  0000 C CNN
 F 1 "SW_Push" H 5250 4494 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 5250 4500 50  0001 C CNN
+F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 5250 4500 50  0001 C CNN
 F 3 "" H 5250 4500 50  0001 C CNN
 	1    5250 4300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4925 4300 4925 4425
@@ -258,10 +256,10 @@ U 1 1 5CA5DAC9
 P 6150 4300
 F 0 "SW10" H 6150 4585 50  0000 C CNN
 F 1 "SW_Push" H 6150 4494 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 6150 4500 50  0001 C CNN
+F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 6150 4500 50  0001 C CNN
 F 3 "" H 6150 4500 50  0001 C CNN
 	1    6150 4300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5950 4300 5850 4300
@@ -284,10 +282,10 @@ U 1 1 5CA5E8F7
 P 7100 4300
 F 0 "SW13" H 7100 4585 50  0000 C CNN
 F 1 "SW_Push" H 7100 4494 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 7100 4500 50  0001 C CNN
+F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 7100 4500 50  0001 C CNN
 F 3 "" H 7100 4500 50  0001 C CNN
 	1    7100 4300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6900 4300 6800 4300
@@ -310,10 +308,10 @@ U 1 1 5CA5F9E0
 P 3350 5150
 F 0 "SW2" H 3350 5435 50  0000 C CNN
 F 1 "SW_Push" H 3350 5344 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 3350 5350 50  0001 C CNN
+F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 3350 5350 50  0001 C CNN
 F 3 "" H 3350 5350 50  0001 C CNN
 	1    3350 5150
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3050 5150 3050 5250
@@ -334,10 +332,10 @@ U 1 1 5CA5F9EF
 P 4300 5150
 F 0 "SW5" H 4300 5435 50  0000 C CNN
 F 1 "SW_Push" H 4300 5344 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 4300 5350 50  0001 C CNN
+F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 4300 5350 50  0001 C CNN
 F 3 "" H 4300 5350 50  0001 C CNN
 	1    4300 5150
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4100 5150 4000 5150
@@ -360,7 +358,7 @@ U 1 1 5CA5F9FE
 P 5275 5150
 F 0 "SW8" H 5275 5435 50  0000 C CNN
 F 1 "SW_Push" H 5275 5344 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 5275 5350 50  0001 C CNN
+F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 5275 5350 50  0001 C CNN
 F 3 "" H 5275 5350 50  0001 C CNN
 	1    5275 5150
 	-1   0    0    -1  
@@ -384,7 +382,7 @@ U 1 1 5CA5FA0D
 P 6200 5150
 F 0 "SW11" H 6200 5435 50  0000 C CNN
 F 1 "SW_Push" H 6200 5344 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 6200 5350 50  0001 C CNN
+F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 6200 5350 50  0001 C CNN
 F 3 "" H 6200 5350 50  0001 C CNN
 	1    6200 5150
 	-1   0    0    -1  
@@ -408,10 +406,10 @@ U 1 1 5CA5FA1C
 P 7100 5150
 F 0 "SW14" H 7100 5435 50  0000 C CNN
 F 1 "SW_Push" H 7100 5344 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 7100 5350 50  0001 C CNN
+F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 7100 5350 50  0001 C CNN
 F 3 "" H 7100 5350 50  0001 C CNN
 	1    7100 5150
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6900 5150 6800 5150
@@ -434,10 +432,10 @@ U 1 1 5CA603D8
 P 3350 6000
 F 0 "SW3" H 3350 6285 50  0000 C CNN
 F 1 "SW_Push" H 3350 6194 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 3350 6200 50  0001 C CNN
+F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 3350 6200 50  0001 C CNN
 F 3 "" H 3350 6200 50  0001 C CNN
 	1    3350 6000
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3050 6000 3050 6100
@@ -458,7 +456,7 @@ U 1 1 5CA603E7
 P 4300 6000
 F 0 "SW6" H 4300 6285 50  0000 C CNN
 F 1 "SW_Push" H 4300 6194 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 4300 6200 50  0001 C CNN
+F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 4300 6200 50  0001 C CNN
 F 3 "" H 4300 6200 50  0001 C CNN
 	1    4300 6000
 	1    0    0    -1  
@@ -484,10 +482,10 @@ U 1 1 5CA603F6
 P 5275 6000
 F 0 "SW9" H 5275 6285 50  0000 C CNN
 F 1 "SW_Push" H 5275 6194 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 5275 6200 50  0001 C CNN
+F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 5275 6200 50  0001 C CNN
 F 3 "" H 5275 6200 50  0001 C CNN
 	1    5275 6000
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4925 6000 4925 6100
@@ -508,10 +506,10 @@ U 1 1 5CA60405
 P 6150 6000
 F 0 "SW12" H 6150 6285 50  0000 C CNN
 F 1 "SW_Push" H 6150 6194 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 6150 6200 50  0001 C CNN
+F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 6150 6200 50  0001 C CNN
 F 3 "" H 6150 6200 50  0001 C CNN
 	1    6150 6000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5950 6000 5850 6000
@@ -534,7 +532,7 @@ U 1 1 5CA60414
 P 7150 6000
 F 0 "SW15" H 7150 6285 50  0000 C CNN
 F 1 "SW_Push" H 7150 6194 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1side" H 7150 6200 50  0001 C CNN
+F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 7150 6200 50  0001 C CNN
 F 3 "" H 7150 6200 50  0001 C CNN
 	1    7150 6000
 	-1   0    0    -1  
@@ -599,7 +597,7 @@ U 1 1 5CA64E00
 P 9500 5650
 F 0 "R2" V 9293 5650 50  0000 C CNN
 F 1 "1M" V 9384 5650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9430 5650 50  0001 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 9430 5650 50  0001 C CNN
 F 3 "~" H 9500 5650 50  0001 C CNN
 	1    9500 5650
 	0    -1   -1   0   
@@ -610,7 +608,7 @@ U 1 1 5CA64E83
 P 9500 6000
 F 0 "R3" V 9293 6000 50  0000 C CNN
 F 1 "1M" V 9384 6000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9430 6000 50  0001 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 9430 6000 50  0001 C CNN
 F 3 "~" H 9500 6000 50  0001 C CNN
 	1    9500 6000
 	0    -1   -1   0   
@@ -621,7 +619,7 @@ U 1 1 5CA64F01
 P 9500 5300
 F 0 "R1" V 9293 5300 50  0000 C CNN
 F 1 "1M" V 9384 5300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9430 5300 50  0001 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 9430 5300 50  0001 C CNN
 F 3 "~" H 9500 5300 50  0001 C CNN
 	1    9500 5300
 	0    -1   -1   0   
@@ -712,7 +710,7 @@ U 1 1 5CA7732B
 P 9725 4350
 F 0 "R4" H 9795 4396 50  0000 L CNN
 F 1 "10k" H 9795 4305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9655 4350 50  0001 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 9655 4350 50  0001 C CNN
 F 3 "~" H 9725 4350 50  0001 C CNN
 	1    9725 4350
 	1    0    0    -1  
@@ -742,7 +740,7 @@ U 1 1 5CA79EEC
 P 7975 4300
 F 0 "C2" H 8090 4346 50  0000 L CNN
 F 1 "1u" H 8090 4255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8013 4150 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 8013 4150 50  0001 C CNN
 F 3 "~" H 7975 4300 50  0001 C CNN
 	1    7975 4300
 	1    0    0    -1  
@@ -753,7 +751,7 @@ U 1 1 5CA79EF3
 P 8325 4300
 F 0 "C3" H 8440 4346 50  0000 L CNN
 F 1 "1u" H 8440 4255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8363 4150 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 8363 4150 50  0001 C CNN
 F 3 "~" H 8325 4300 50  0001 C CNN
 	1    8325 4300
 	1    0    0    -1  
@@ -785,16 +783,16 @@ Text GLabel 2700 1575 0    50   Input ~ 0
 SDA
 Text GLabel 2700 1675 0    50   Input ~ 0
 SCL
-Text GLabel 1300 4550 3    50   Input ~ 0
+Text GLabel 1325 4575 3    50   Input ~ 0
 SCL
-Text GLabel 1400 4550 3    50   Input ~ 0
+Text GLabel 1225 4575 3    50   Input ~ 0
 SDA
 Wire Wire Line
-	1125 4400 1300 4400
+	1125 4300 1325 4300
 Wire Wire Line
-	1300 4400 1300 4550
+	1325 4300 1325 4575
 Wire Wire Line
-	1125 4300 1400 4300
+	1125 4350 1225 4350
 $Comp
 L Switch:SW_DIP_x04 SW16
 U 1 1 5CA5F5D8
@@ -808,94 +806,9 @@ F 3 "" H 8325 5900 50  0001 C CNN
 $EndComp
 NoConn ~ 8625 6000
 NoConn ~ 8025 6000
-$Comp
-L Connector:AudioJack4 J1
-U 1 1 5CA650D1
-P 925 4300
-F 0 "J1" H 880 4625 50  0000 C CNN
-F 1 "AudioJack4" H 880 4534 50  0000 C CNN
-F 2 "Connector_Audio_Mod:Jack_3.5mm_PJ320D_Horizontal_Mod" H 925 4300 50  0001 C CNN
-F 3 "~" H 925 4300 50  0001 C CNN
-	1    925  4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1400 4300 1400 4550
-$Comp
-L power:GND #PWR04
-U 1 1 5CA945D7
-P 1575 5450
-F 0 "#PWR04" H 1575 5200 50  0001 C CNN
-F 1 "GND" H 1580 5277 50  0000 C CNN
-F 2 "" H 1575 5450 50  0001 C CNN
-F 3 "" H 1575 5450 50  0001 C CNN
-	1    1575 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 5400 1225 5400
-Wire Wire Line
-	1225 5400 1225 5450
-Text GLabel 1225 5450 3    50   Input ~ 0
-3.3V
-Wire Wire Line
-	1150 5100 1575 5100
-Wire Wire Line
-	1575 5100 1575 5450
-Text GLabel 1325 5450 3    50   Input ~ 0
-SCL
-Text GLabel 1425 5450 3    50   Input ~ 0
-SDA
-Wire Wire Line
-	1150 5300 1325 5300
-Wire Wire Line
-	1325 5300 1325 5450
-Wire Wire Line
-	1150 5200 1425 5200
-$Comp
-L Connector:AudioJack4 J2
-U 1 1 5CA945E7
-P 950 5200
-F 0 "J2" H 905 5525 50  0000 C CNN
-F 1 "AudioJack4" H 905 5434 50  0000 C CNN
-F 2 "Connector_Audio_Mod:Jack_3.5mm_PJ320D_Horizontal_Mod" H 950 5200 50  0001 C CNN
-F 3 "~" H 950 5200 50  0001 C CNN
-	1    950  5200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1425 5200 1425 5450
-$Comp
-L Connector:AudioJack4 J3
-U 1 1 5CA964C3
-P 2250 4300
-F 0 "J3" H 2205 4625 50  0000 C CNN
-F 1 "AudioJack4" H 2205 4534 50  0000 C CNN
-F 2 "Connector_Audio_Mod:Jack_3.5mm_PJ320D_Horizontal_Mod" H 2250 4300 50  0001 C CNN
-F 3 "~" H 2250 4300 50  0001 C CNN
-	1    2250 4300
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2450 4300
-NoConn ~ 2450 4200
-NoConn ~ 2450 5350
-Wire Wire Line
-	2450 5250 2500 5250
-Text GLabel 2500 5250 2    50   Input ~ 0
-INT
-$Comp
-L Connector:AudioJack4 J4
-U 1 1 5CA9FF13
-P 2250 5150
-F 0 "J4" H 2205 5475 50  0000 C CNN
-F 1 "AudioJack4" H 2205 5384 50  0000 C CNN
-F 2 "Connector_Audio_Mod:Jack_3.5mm_PJ320D_Horizontal_Mod" H 2250 5150 50  0001 C CNN
-F 3 "~" H 2250 5150 50  0001 C CNN
-	1    2250 5150
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2450 5150
-NoConn ~ 2450 5050
+	1225 4350 1225 4575
+NoConn ~ 2300 4200
 Connection ~ 9850 5300
 Wire Wire Line
 	8750 5700 8750 5300
@@ -933,4 +846,91 @@ Wire Wire Line
 	6950 6000 6800 6000
 Wire Wire Line
 	3825 1200 3900 1200
+$Comp
+L kbd:MJ-4PP-9 J1
+U 1 1 5CAB9B4B
+P 925 4275
+F 0 "J1" H 955 4551 50  0000 C CNN
+F 1 "MJ-4PP-9" H 955 4460 50  0000 C CNN
+F 2 "kbd:MJ-4PP-9_1side" H 1200 4450 50  0001 C CNN
+F 3 "~" H 1200 4450 50  0001 C CNN
+	1    925  4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5CAE296F
+P 1550 5475
+F 0 "#PWR04" H 1550 5225 50  0001 C CNN
+F 1 "GND" H 1555 5302 50  0000 C CNN
+F 2 "" H 1550 5475 50  0001 C CNN
+F 3 "" H 1550 5475 50  0001 C CNN
+	1    1550 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1125 5175 1425 5175
+Wire Wire Line
+	1425 5175 1425 5475
+Text GLabel 1425 5475 3    50   Input ~ 0
+3.3V
+Wire Wire Line
+	1125 5125 1550 5125
+Wire Wire Line
+	1550 5125 1550 5475
+Text GLabel 1325 5500 3    50   Input ~ 0
+SCL
+Text GLabel 1225 5500 3    50   Input ~ 0
+SDA
+Wire Wire Line
+	1125 5225 1325 5225
+Wire Wire Line
+	1325 5225 1325 5500
+Wire Wire Line
+	1125 5275 1225 5275
+Wire Wire Line
+	1225 5275 1225 5500
+$Comp
+L kbd:MJ-4PP-9 J2
+U 1 1 5CAE2980
+P 925 5200
+F 0 "J2" H 955 5476 50  0000 C CNN
+F 1 "MJ-4PP-9" H 955 5385 50  0000 C CNN
+F 2 "kbd:MJ-4PP-9_1side" H 1200 5375 50  0001 C CNN
+F 3 "~" H 1200 5375 50  0001 C CNN
+	1    925  5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:MJ-4PP-9 J3
+U 1 1 5CAE4E28
+P 2100 4275
+F 0 "J3" H 2130 4551 50  0000 C CNN
+F 1 "MJ-4PP-9" H 2130 4460 50  0000 C CNN
+F 2 "kbd:MJ-4PP-9_1side" H 2375 4450 50  0001 C CNN
+F 3 "~" H 2375 4450 50  0001 C CNN
+	1    2100 4275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4300 2400 4300
+NoConn ~ 2300 4350
+NoConn ~ 2300 5175
+Text GLabel 2400 5225 2    50   Input ~ 0
+INT
+NoConn ~ 2300 5125
+$Comp
+L kbd:MJ-4PP-9 J4
+U 1 1 5CAEE111
+P 2100 5200
+F 0 "J4" H 2130 5476 50  0000 C CNN
+F 1 "MJ-4PP-9" H 2130 5385 50  0000 C CNN
+F 2 "kbd:MJ-4PP-9_1side" H 2375 5375 50  0001 C CNN
+F 3 "~" H 2375 5375 50  0001 C CNN
+	1    2100 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5225 2400 5225
+NoConn ~ 2300 5275
 $EndSCHEMATC
