@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_Expansion:TCA9555PWR U1
-U 1 1 5CA5474A
-P 3400 2375
-F 0 "U1" H 3400 2425 50  0000 C CNN
-F 1 "TCA9555PWR" H 3400 2325 50  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 4450 1375 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 2900 3275 50  0001 C CNN
-	1    3400 2375
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR01
 U 1 1 5CA54857
 P 850 1000
@@ -69,87 +58,80 @@ F 3 "~" H 850 1475 50  0001 C CNN
 	1    850  1475
 	1    0    0    -1  
 $EndComp
-Text GLabel 2700 1775 0    50   Input ~ 0
+Text GLabel 1525 2050 0    50   Input ~ 0
 INT
-Wire Wire Line
-	3400 1275 3400 1200
-Wire Wire Line
-	3400 1200 3325 1200
-Text GLabel 3325 1200 0    50   Input ~ 0
+Text GLabel 2175 3250 0    50   Input ~ 0
 3.3V
 $Comp
 L Device:C C1
 U 1 1 5CA55176
-P 3675 1200
-F 0 "C1" V 3423 1200 50  0000 C CNN
-F 1 "100n" V 3514 1200 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 3713 1050 50  0001 C CNN
-F 3 "~" H 3675 1200 50  0001 C CNN
-	1    3675 1200
-	0    1    1    0   
+P 2650 3250
+F 0 "C1" V 2398 3250 50  0000 C CNN
+F 1 "100n" V 2489 3250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 2688 3100 50  0001 C CNN
+F 3 "~" H 2650 3250 50  0001 C CNN
+	1    2650 3250
+	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	3400 1200 3525 1200
-Connection ~ 3400 1200
 $Comp
 L power:GND #PWR09
 U 1 1 5CA5522B
-P 3900 1200
-F 0 "#PWR09" H 3900 950 50  0001 C CNN
-F 1 "GND" H 3905 1027 50  0000 C CNN
-F 2 "" H 3900 1200 50  0001 C CNN
-F 3 "" H 3900 1200 50  0001 C CNN
-	1    3900 1200
+P 2950 3250
+F 0 "#PWR09" H 2950 3000 50  0001 C CNN
+F 1 "GND" H 2955 3077 50  0000 C CNN
+F 2 "" H 2950 3250 50  0001 C CNN
+F 3 "" H 2950 3250 50  0001 C CNN
+	1    2950 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 5CA552D7
-P 3400 3475
-F 0 "#PWR08" H 3400 3225 50  0001 C CNN
-F 1 "GND" H 3405 3302 50  0000 C CNN
-F 2 "" H 3400 3475 50  0001 C CNN
-F 3 "" H 3400 3475 50  0001 C CNN
-	1    3400 3475
+P 3250 1050
+F 0 "#PWR08" H 3250 800 50  0001 C CNN
+F 1 "GND" H 3255 877 50  0000 C CNN
+F 2 "" H 3250 1050 50  0001 C CNN
+F 3 "" H 3250 1050 50  0001 C CNN
+	1    3250 1050
 	1    0    0    -1  
 $EndComp
-Text GLabel 2700 2975 0    50   Input ~ 0
+Text GLabel 1650 2750 0    50   Input ~ 0
 A2
-Text GLabel 2700 3075 0    50   Input ~ 0
+Text GLabel 1650 2850 0    50   Input ~ 0
 A1
-Text GLabel 2700 3175 0    50   Input ~ 0
+Text GLabel 1650 2950 0    50   Input ~ 0
 A0
-Text GLabel 4100 1775 2    50   Input ~ 0
+Text GLabel 3050 1550 2    50   Input ~ 0
 R1C1
-Text GLabel 4100 1875 2    50   Input ~ 0
+Text GLabel 3050 1650 2    50   Input ~ 0
 R1C2
-Text GLabel 4100 2175 2    50   Input ~ 0
+Text GLabel 3050 1950 2    50   Input ~ 0
 R1C3
-Text GLabel 4100 2575 2    50   Input ~ 0
+Text GLabel 3050 2350 2    50   Input ~ 0
 R1C4
-Text GLabel 4100 2875 2    50   Input ~ 0
+Text GLabel 3050 2650 2    50   Input ~ 0
 R1C5
-Text GLabel 4100 1675 2    50   Input ~ 0
+Text GLabel 3050 1450 2    50   Input ~ 0
 R2C1
-Text GLabel 4100 1975 2    50   Input ~ 0
+Text GLabel 3050 1750 2    50   Input ~ 0
 R2C2
-Text GLabel 4100 2275 2    50   Input ~ 0
+Text GLabel 3050 2050 2    50   Input ~ 0
 R2C3
-Text GLabel 4100 2675 2    50   Input ~ 0
+Text GLabel 3050 2450 2    50   Input ~ 0
 R2C4
-Text GLabel 4100 2975 2    50   Input ~ 0
+Text GLabel 3050 2750 2    50   Input ~ 0
 R2C5
-Text GLabel 4100 1575 2    50   Input ~ 0
+Text GLabel 3050 1350 2    50   Input ~ 0
 R3C1
-Text GLabel 4100 2475 2    50   Input ~ 0
+Text GLabel 3050 2250 2    50   Input ~ 0
 R3C3
-Text GLabel 4100 2775 2    50   Input ~ 0
+Text GLabel 3050 2550 2    50   Input ~ 0
 R3C4
-Text GLabel 4100 3075 2    50   Input ~ 0
+Text GLabel 3050 2850 2    50   Input ~ 0
 R3C5
-Text GLabel 4100 2075 2    50   Input ~ 0
+Text GLabel 3050 1850 2    50   Input ~ 0
 R3C2
-NoConn ~ 4100 3175
+NoConn ~ 3050 2950
 $Comp
 L power:GND #PWR03
 U 1 1 5CA56CA6
@@ -651,11 +633,11 @@ Wire Wire Line
 	8750 6000 8750 5900
 Wire Wire Line
 	8750 5900 8625 5900
-Text GLabel 9100 5850 0    50   Input ~ 0
+Text GLabel 9100 5150 0    50   Input ~ 0
 A0
 Text GLabel 9100 5500 0    50   Input ~ 0
 A1
-Text GLabel 9100 5150 0    50   Input ~ 0
+Text GLabel 9100 5850 0    50   Input ~ 0
 A2
 Wire Wire Line
 	9250 6000 9250 5850
@@ -740,7 +722,7 @@ U 1 1 5CA79EEC
 P 7975 4300
 F 0 "C2" H 8090 4346 50  0000 L CNN
 F 1 "1u" H 8090 4255 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 8013 4150 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 8013 4150 50  0001 C CNN
 F 3 "~" H 7975 4300 50  0001 C CNN
 	1    7975 4300
 	1    0    0    -1  
@@ -751,7 +733,7 @@ U 1 1 5CA79EF3
 P 8325 4300
 F 0 "C3" H 8440 4346 50  0000 L CNN
 F 1 "1u" H 8440 4255 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 8363 4150 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 8363 4150 50  0001 C CNN
 F 3 "~" H 8325 4300 50  0001 C CNN
 	1    8325 4300
 	1    0    0    -1  
@@ -779,9 +761,9 @@ F 3 "" H 7825 5925 50  0001 C CNN
 	1    7825 5925
 	1    0    0    -1  
 $EndComp
-Text GLabel 2700 1575 0    50   Input ~ 0
+Text GLabel 1650 1350 0    50   Input ~ 0
 SDA
-Text GLabel 2700 1675 0    50   Input ~ 0
+Text GLabel 1650 1450 0    50   Input ~ 0
 SCL
 Text GLabel 1325 4575 3    50   Input ~ 0
 SCL
@@ -844,8 +826,6 @@ Wire Wire Line
 	6000 5150 5850 5150
 Wire Wire Line
 	6950 6000 6800 6000
-Wire Wire Line
-	3825 1200 3900 1200
 $Comp
 L kbd:MJ-4PP-9 J1
 U 1 1 5CAB9B4B
@@ -936,67 +916,91 @@ NoConn ~ 2300 5275
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5CACD9B3
-P 5275 1800
-F 0 "H1" H 5375 1846 50  0000 L CNN
-F 1 "MountingHole" H 5375 1755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5275 1800 50  0001 C CNN
-F 3 "~" H 5275 1800 50  0001 C CNN
-	1    5275 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5CACDA23
-P 5275 2100
-F 0 "H2" H 5375 2146 50  0000 L CNN
-F 1 "MountingHole" H 5375 2055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5275 2100 50  0001 C CNN
-F 3 "~" H 5275 2100 50  0001 C CNN
-	1    5275 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5CACDA87
-P 5275 2375
-F 0 "H3" H 5375 2421 50  0000 L CNN
-F 1 "MountingHole" H 5375 2330 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5275 2375 50  0001 C CNN
-F 3 "~" H 5275 2375 50  0001 C CNN
-	1    5275 2375
+P 4250 1925
+F 0 "H1" H 4350 1971 50  0000 L CNN
+F 1 "MountingHole" H 4350 1880 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 4250 1925 50  0001 C CNN
+F 3 "~" H 4250 1925 50  0001 C CNN
+	1    4250 1925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5CACDB05
-P 6050 1800
-F 0 "H4" H 6150 1846 50  0000 L CNN
-F 1 "MountingHole" H 6150 1755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6050 1800 50  0001 C CNN
-F 3 "~" H 6050 1800 50  0001 C CNN
-	1    6050 1800
+P 5025 1925
+F 0 "H4" H 5125 1971 50  0000 L CNN
+F 1 "MountingHole" H 5125 1880 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5025 1925 50  0001 C CNN
+F 3 "~" H 5025 1925 50  0001 C CNN
+	1    5025 1925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 5CACDB7D
-P 6050 2100
-F 0 "H5" H 6150 2146 50  0000 L CNN
-F 1 "MountingHole" H 6150 2055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6050 2100 50  0001 C CNN
-F 3 "~" H 6050 2100 50  0001 C CNN
-	1    6050 2100
+P 5025 2225
+F 0 "H5" H 5125 2271 50  0000 L CNN
+F 1 "MountingHole" H 5125 2180 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5025 2225 50  0001 C CNN
+F 3 "~" H 5025 2225 50  0001 C CNN
+	1    5025 2225
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 5CACDBF3
-P 6050 2375
-F 0 "H6" H 6150 2421 50  0000 L CNN
-F 1 "MountingHole" H 6150 2330 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6050 2375 50  0001 C CNN
-F 3 "~" H 6050 2375 50  0001 C CNN
-	1    6050 2375
+P 5025 2500
+F 0 "H6" H 5125 2546 50  0000 L CNN
+F 1 "MountingHole" H 5125 2455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5025 2500 50  0001 C CNN
+F 3 "~" H 5025 2500 50  0001 C CNN
+	1    5025 2500
 	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion:MCP23017_SP U1
+U 1 1 5CAE5416
+P 2350 2150
+F 0 "U1" H 2350 3428 50  0000 C CNN
+F 1 "MCP23017_SP" H 2350 3337 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 2550 1150 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2550 1050 50  0001 L CNN
+	1    2350 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 2250 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	1525 2050 1600 2050
+Wire Wire Line
+	1650 1950 1600 1950
+Wire Wire Line
+	1600 1950 1600 2050
+Connection ~ 1600 2050
+Wire Wire Line
+	1600 2050 1650 2050
+Wire Wire Line
+	2350 1050 3250 1050
+Wire Wire Line
+	2175 3250 2350 3250
+Connection ~ 2350 3250
+Wire Wire Line
+	2350 3250 2500 3250
+Wire Wire Line
+	2800 3250 2950 3250
+Text GLabel 9550 3400 2    50   Input ~ 0
+RESET
+Text GLabel 8950 3400 0    50   Input ~ 0
+3.3V
+$Comp
+L kbd:SW_PUSH SW17
+U 1 1 5CB049E4
+P 9250 3400
+F 0 "SW17" H 9250 3655 50  0000 C CNN
+F 1 "SW_PUSH" H 9250 3564 50  0000 C CNN
+F 2 "kbd:ResetSW_1side" H 9250 3400 50  0001 C CNN
+F 3 "" H 9250 3400 50  0000 C CNN
+	1    9250 3400
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
