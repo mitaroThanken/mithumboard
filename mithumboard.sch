@@ -933,4 +933,70 @@ $EndComp
 Wire Wire Line
 	2300 5225 2400 5225
 NoConn ~ 2300 5275
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CACD9B3
+P 5275 1800
+F 0 "H1" H 5375 1846 50  0000 L CNN
+F 1 "MountingHole" H 5375 1755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5275 1800 50  0001 C CNN
+F 3 "~" H 5275 1800 50  0001 C CNN
+	1    5275 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5CACDA23
+P 5275 2100
+F 0 "H2" H 5375 2146 50  0000 L CNN
+F 1 "MountingHole" H 5375 2055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5275 2100 50  0001 C CNN
+F 3 "~" H 5275 2100 50  0001 C CNN
+	1    5275 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5CACDA87
+P 5275 2375
+F 0 "H3" H 5375 2421 50  0000 L CNN
+F 1 "MountingHole" H 5375 2330 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5275 2375 50  0001 C CNN
+F 3 "~" H 5275 2375 50  0001 C CNN
+	1    5275 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5CACDB05
+P 6050 1800
+F 0 "H4" H 6150 1846 50  0000 L CNN
+F 1 "MountingHole" H 6150 1755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6050 1800 50  0001 C CNN
+F 3 "~" H 6050 1800 50  0001 C CNN
+	1    6050 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5CACDB7D
+P 6050 2100
+F 0 "H5" H 6150 2146 50  0000 L CNN
+F 1 "MountingHole" H 6150 2055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6050 2100 50  0001 C CNN
+F 3 "~" H 6050 2100 50  0001 C CNN
+	1    6050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5CACDBF3
+P 6050 2375
+F 0 "H6" H 6150 2421 50  0000 L CNN
+F 1 "MountingHole" H 6150 2330 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6050 2375 50  0001 C CNN
+F 3 "~" H 6050 2375 50  0001 C CNN
+	1    6050 2375
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
