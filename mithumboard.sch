@@ -101,37 +101,37 @@ Text GLabel 1650 2850 0    50   Input ~ 0
 A1
 Text GLabel 1650 2950 0    50   Input ~ 0
 A0
-Text GLabel 3050 1550 2    50   Input ~ 0
+Text GLabel 3050 1850 2    50   Input ~ 0
 R1C1
-Text GLabel 3050 1650 2    50   Input ~ 0
+Text GLabel 3050 1550 2    50   Input ~ 0
 R1C2
-Text GLabel 3050 1950 2    50   Input ~ 0
+Text GLabel 3050 1350 2    50   Input ~ 0
 R1C3
-Text GLabel 3050 2350 2    50   Input ~ 0
-R1C4
 Text GLabel 3050 2650 2    50   Input ~ 0
+R1C4
+Text GLabel 3050 2950 2    50   Input ~ 0
 R1C5
-Text GLabel 3050 1450 2    50   Input ~ 0
+Text GLabel 3050 1950 2    50   Input ~ 0
 R2C1
-Text GLabel 3050 1750 2    50   Input ~ 0
+Text GLabel 3050 1650 2    50   Input ~ 0
 R2C2
-Text GLabel 3050 2050 2    50   Input ~ 0
+Text GLabel 3050 1450 2    50   Input ~ 0
 R2C3
-Text GLabel 3050 2450 2    50   Input ~ 0
+Text GLabel 3050 2550 2    50   Input ~ 0
 R2C4
 Text GLabel 3050 2750 2    50   Input ~ 0
 R2C5
-Text GLabel 3050 1350 2    50   Input ~ 0
+Text GLabel 3050 2050 2    50   Input ~ 0
 R3C1
 Text GLabel 3050 2250 2    50   Input ~ 0
 R3C3
-Text GLabel 3050 2550 2    50   Input ~ 0
+Text GLabel 3050 2450 2    50   Input ~ 0
 R3C4
 Text GLabel 3050 2850 2    50   Input ~ 0
 R3C5
-Text GLabel 3050 1850 2    50   Input ~ 0
+Text GLabel 3050 1750 2    50   Input ~ 0
 R3C2
-NoConn ~ 3050 2950
+NoConn ~ 3050 2350
 $Comp
 L power:GND #PWR03
 U 1 1 5CA56CA6
@@ -191,7 +191,7 @@ F 1 "SW_Push" H 4300 4494 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 4300 4500 50  0001 C CNN
 F 3 "" H 4300 4500 50  0001 C CNN
 	1    4300 4300
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4100 4300 4000 4300
@@ -217,7 +217,7 @@ F 1 "SW_Push" H 5250 4494 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 5250 4500 50  0001 C CNN
 F 3 "" H 5250 4500 50  0001 C CNN
 	1    5250 4300
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4925 4300 4925 4425
@@ -241,7 +241,7 @@ F 1 "SW_Push" H 6150 4494 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 6150 4500 50  0001 C CNN
 F 3 "" H 6150 4500 50  0001 C CNN
 	1    6150 4300
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5950 4300 5850 4300
@@ -267,7 +267,7 @@ F 1 "SW_Push" H 7100 4494 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 7100 4500 50  0001 C CNN
 F 3 "" H 7100 4500 50  0001 C CNN
 	1    7100 4300
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6900 4300 6800 4300
@@ -317,7 +317,7 @@ F 1 "SW_Push" H 4300 5344 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 4300 5350 50  0001 C CNN
 F 3 "" H 4300 5350 50  0001 C CNN
 	1    4300 5150
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4100 5150 4000 5150
@@ -343,7 +343,7 @@ F 1 "SW_Push" H 5275 5344 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 5275 5350 50  0001 C CNN
 F 3 "" H 5275 5350 50  0001 C CNN
 	1    5275 5150
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4950 5150 4950 5250
@@ -367,7 +367,7 @@ F 1 "SW_Push" H 6200 5344 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 6200 5350 50  0001 C CNN
 F 3 "" H 6200 5350 50  0001 C CNN
 	1    6200 5150
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5850 5150 5850 5250
@@ -491,7 +491,7 @@ F 1 "SW_Push" H 6150 6194 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 6150 6200 50  0001 C CNN
 F 3 "" H 6150 6200 50  0001 C CNN
 	1    6150 6000
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5950 6000 5850 6000
@@ -925,36 +925,36 @@ F 3 "~" H 4250 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L Mechanical:MountingHole H2
 U 1 1 5CACDB05
-P 5025 1925
-F 0 "H4" H 5125 1971 50  0000 L CNN
-F 1 "MountingHole" H 5125 1880 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5025 1925 50  0001 C CNN
-F 3 "~" H 5025 1925 50  0001 C CNN
-	1    5025 1925
+P 4250 2125
+F 0 "H2" H 4350 2171 50  0000 L CNN
+F 1 "MountingHole" H 4350 2080 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 4250 2125 50  0001 C CNN
+F 3 "~" H 4250 2125 50  0001 C CNN
+	1    4250 2125
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H5
+L Mechanical:MountingHole H3
 U 1 1 5CACDB7D
-P 5025 2225
-F 0 "H5" H 5125 2271 50  0000 L CNN
-F 1 "MountingHole" H 5125 2180 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5025 2225 50  0001 C CNN
-F 3 "~" H 5025 2225 50  0001 C CNN
-	1    5025 2225
+P 5000 1925
+F 0 "H3" H 5100 1971 50  0000 L CNN
+F 1 "MountingHole" H 5100 1880 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5000 1925 50  0001 C CNN
+F 3 "~" H 5000 1925 50  0001 C CNN
+	1    5000 1925
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H6
+L Mechanical:MountingHole H4
 U 1 1 5CACDBF3
-P 5025 2500
-F 0 "H6" H 5125 2546 50  0000 L CNN
-F 1 "MountingHole" H 5125 2455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5025 2500 50  0001 C CNN
-F 3 "~" H 5025 2500 50  0001 C CNN
-	1    5025 2500
+P 5000 2125
+F 0 "H4" H 5100 2171 50  0000 L CNN
+F 1 "MountingHole" H 5100 2080 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5000 2125 50  0001 C CNN
+F 3 "~" H 5000 2125 50  0001 C CNN
+	1    5000 2125
 	1    0    0    -1  
 $EndComp
 $Comp
