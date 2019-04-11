@@ -58,80 +58,76 @@ F 3 "~" H 850 1475 50  0001 C CNN
 	1    850  1475
 	1    0    0    -1  
 $EndComp
-Text GLabel 1525 2050 0    50   Input ~ 0
-INT
-Text GLabel 2175 3250 0    50   Input ~ 0
-3.3V
 $Comp
 L Device:C C1
 U 1 1 5CA55176
 P 2650 3250
 F 0 "C1" V 2398 3250 50  0000 C CNN
-F 1 "100n" V 2489 3250 50  0000 C CNN
+F 1 "0.1u" V 2489 3250 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 2688 3100 50  0001 C CNN
 F 3 "~" H 2650 3250 50  0001 C CNN
 	1    2650 3250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 5CA5522B
-P 2950 3250
-F 0 "#PWR09" H 2950 3000 50  0001 C CNN
-F 1 "GND" H 2955 3077 50  0000 C CNN
-F 2 "" H 2950 3250 50  0001 C CNN
-F 3 "" H 2950 3250 50  0001 C CNN
-	1    2950 3250
+P 3375 900
+F 0 "#PWR09" H 3375 650 50  0001 C CNN
+F 1 "GND" H 3380 727 50  0000 C CNN
+F 2 "" H 3375 900 50  0001 C CNN
+F 3 "" H 3375 900 50  0001 C CNN
+	1    3375 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 5CA552D7
-P 3250 1050
-F 0 "#PWR08" H 3250 800 50  0001 C CNN
-F 1 "GND" H 3255 877 50  0000 C CNN
-F 2 "" H 3250 1050 50  0001 C CNN
-F 3 "" H 3250 1050 50  0001 C CNN
-	1    3250 1050
+P 3000 3250
+F 0 "#PWR08" H 3000 3000 50  0001 C CNN
+F 1 "GND" H 3005 3077 50  0000 C CNN
+F 2 "" H 3000 3250 50  0001 C CNN
+F 3 "" H 3000 3250 50  0001 C CNN
+	1    3000 3250
 	1    0    0    -1  
 $EndComp
-Text GLabel 1650 2750 0    50   Input ~ 0
+Text GLabel 1600 2600 0    50   Input ~ 0
 A2
-Text GLabel 1650 2850 0    50   Input ~ 0
+Text GLabel 1600 2700 0    50   Input ~ 0
 A1
-Text GLabel 1650 2950 0    50   Input ~ 0
+Text GLabel 1600 2800 0    50   Input ~ 0
 A0
-Text GLabel 3050 1850 2    50   Input ~ 0
+Text GLabel 3000 1700 2    50   Input ~ 0
 R1C1
-Text GLabel 3050 1550 2    50   Input ~ 0
+Text GLabel 3000 1400 2    50   Input ~ 0
 R1C2
-Text GLabel 3050 1350 2    50   Input ~ 0
+Text GLabel 3000 1200 2    50   Input ~ 0
 R1C3
-Text GLabel 3050 2650 2    50   Input ~ 0
+Text GLabel 3000 2500 2    50   Input ~ 0
 R1C4
-Text GLabel 3050 2950 2    50   Input ~ 0
+Text GLabel 3000 2800 2    50   Input ~ 0
 R1C5
-Text GLabel 3050 1950 2    50   Input ~ 0
+Text GLabel 3000 1800 2    50   Input ~ 0
 R2C1
-Text GLabel 3050 1650 2    50   Input ~ 0
+Text GLabel 3000 1500 2    50   Input ~ 0
 R2C2
-Text GLabel 3050 1450 2    50   Input ~ 0
+Text GLabel 3000 1300 2    50   Input ~ 0
 R2C3
-Text GLabel 3050 2550 2    50   Input ~ 0
+Text GLabel 3000 2400 2    50   Input ~ 0
 R2C4
-Text GLabel 3050 2750 2    50   Input ~ 0
+Text GLabel 3000 2600 2    50   Input ~ 0
 R2C5
-Text GLabel 3050 2050 2    50   Input ~ 0
+Text GLabel 3000 1900 2    50   Input ~ 0
 R3C1
-Text GLabel 3050 2250 2    50   Input ~ 0
+Text GLabel 3000 2100 2    50   Input ~ 0
 R3C3
-Text GLabel 3050 2450 2    50   Input ~ 0
+Text GLabel 3000 2300 2    50   Input ~ 0
 R3C4
-Text GLabel 3050 2850 2    50   Input ~ 0
+Text GLabel 3000 2700 2    50   Input ~ 0
 R3C5
-Text GLabel 3050 1750 2    50   Input ~ 0
+Text GLabel 3000 1600 2    50   Input ~ 0
 R3C2
-NoConn ~ 3050 2350
+NoConn ~ 3000 2200
 $Comp
 L power:GND #PWR03
 U 1 1 5CA56CA6
@@ -145,10 +141,6 @@ F 3 "" H 1550 4550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1125 4250 1425 4250
-Wire Wire Line
-	1425 4250 1425 4550
-Text GLabel 1425 4550 3    50   Input ~ 0
-3.3V
 Wire Wire Line
 	1125 4200 1550 4200
 Wire Wire Line
@@ -562,208 +554,9 @@ Text GLabel 6350 6000 2    50   Input ~ 0
 R3C4
 Text GLabel 7350 6000 2    50   Input ~ 0
 R3C5
-$Comp
-L power:VCC #PWR026
-U 1 1 5CA6322A
-P 9850 5175
-F 0 "#PWR026" H 9850 5025 50  0001 C CNN
-F 1 "VCC" H 9867 5348 50  0000 C CNN
-F 2 "" H 9850 5175 50  0001 C CNN
-F 3 "" H 9850 5175 50  0001 C CNN
-	1    9850 5175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5CA64E00
-P 9500 5650
-F 0 "R2" V 9293 5650 50  0000 C CNN
-F 1 "1M" V 9384 5650 50  0000 C CNN
-F 2 "Keebio-Parts:Resistor-Hybrid" V 9430 5650 50  0001 C CNN
-F 3 "~" H 9500 5650 50  0001 C CNN
-	1    9500 5650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 5CA64E83
-P 9500 6000
-F 0 "R3" V 9293 6000 50  0000 C CNN
-F 1 "1M" V 9384 6000 50  0000 C CNN
-F 2 "Keebio-Parts:Resistor-Hybrid" V 9430 6000 50  0001 C CNN
-F 3 "~" H 9500 6000 50  0001 C CNN
-	1    9500 6000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5CA64F01
-P 9500 5300
-F 0 "R1" V 9293 5300 50  0000 C CNN
-F 1 "1M" V 9384 5300 50  0000 C CNN
-F 2 "Keebio-Parts:Resistor-Hybrid" V 9430 5300 50  0001 C CNN
-F 3 "~" H 9500 5300 50  0001 C CNN
-	1    9500 5300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9850 5300 9650 5300
-Wire Wire Line
-	9650 5650 9850 5650
-Connection ~ 9850 5650
-Wire Wire Line
-	9850 5650 9850 5300
-Wire Wire Line
-	9650 6000 9850 6000
-Wire Wire Line
-	9850 5175 9850 5300
-Wire Wire Line
-	9850 6000 9850 5650
-Wire Wire Line
-	9350 5300 9250 5300
-Wire Wire Line
-	9350 5650 9250 5650
-Wire Wire Line
-	8850 5650 8850 5800
-Wire Wire Line
-	8850 5800 8625 5800
-Wire Wire Line
-	9350 6000 9250 6000
-Wire Wire Line
-	8750 6000 8750 5900
-Wire Wire Line
-	8750 5900 8625 5900
-Text GLabel 9100 5150 0    50   Input ~ 0
-A0
-Text GLabel 9100 5500 0    50   Input ~ 0
-A1
-Text GLabel 9100 5850 0    50   Input ~ 0
-A2
-Wire Wire Line
-	9250 6000 9250 5850
-Wire Wire Line
-	9250 5850 9100 5850
-Connection ~ 9250 6000
-Wire Wire Line
-	9250 6000 8750 6000
-Wire Wire Line
-	9250 5650 9250 5500
-Wire Wire Line
-	9250 5500 9100 5500
-Connection ~ 9250 5650
-Wire Wire Line
-	9250 5650 8850 5650
-Wire Wire Line
-	9250 5300 9250 5150
-Wire Wire Line
-	9250 5150 9100 5150
-Connection ~ 9250 5300
-$Comp
-L power:VCC #PWR024
-U 1 1 5CA7731C
-P 8950 4150
-F 0 "#PWR024" H 8950 4000 50  0001 C CNN
-F 1 "VCC" H 8967 4323 50  0000 C CNN
-F 2 "" H 8950 4150 50  0001 C CNN
-F 3 "" H 8950 4150 50  0001 C CNN
-	1    8950 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8950 4150 8950 4225
-Wire Wire Line
-	8950 4225 9025 4225
-Text GLabel 9025 4225 2    50   Input ~ 0
-3.3V
-$Comp
-L power:VCC #PWR025
-U 1 1 5CA77325
-P 9725 4125
-F 0 "#PWR025" H 9725 3975 50  0001 C CNN
-F 1 "VCC" H 9742 4298 50  0000 C CNN
-F 2 "" H 9725 4125 50  0001 C CNN
-F 3 "" H 9725 4125 50  0001 C CNN
-	1    9725 4125
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5CA7732B
-P 9725 4350
-F 0 "R4" H 9795 4396 50  0000 L CNN
-F 1 "10k" H 9795 4305 50  0000 L CNN
-F 2 "Keebio-Parts:Resistor-Hybrid" V 9655 4350 50  0001 C CNN
-F 3 "~" H 9725 4350 50  0001 C CNN
-	1    9725 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9725 4125 9725 4200
-Wire Wire Line
-	9725 4500 9725 4575
-Wire Wire Line
-	9725 4575 9800 4575
-Text GLabel 9800 4575 2    50   Input ~ 0
-INT
-$Comp
-L power:GND #PWR023
-U 1 1 5CA79EE6
-P 7975 4450
-F 0 "#PWR023" H 7975 4200 50  0001 C CNN
-F 1 "GND" H 7980 4277 50  0000 C CNN
-F 2 "" H 7975 4450 50  0001 C CNN
-F 3 "" H 7975 4450 50  0001 C CNN
-	1    7975 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 5CA79EEC
-P 7975 4300
-F 0 "C2" H 8090 4346 50  0000 L CNN
-F 1 "1u" H 8090 4255 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 8013 4150 50  0001 C CNN
-F 3 "~" H 7975 4300 50  0001 C CNN
-	1    7975 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5CA79EF3
-P 8325 4300
-F 0 "C3" H 8440 4346 50  0000 L CNN
-F 1 "1u" H 8440 4255 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 8363 4150 50  0001 C CNN
-F 3 "~" H 8325 4300 50  0001 C CNN
-	1    8325 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8325 4450 7975 4450
-Connection ~ 7975 4450
-Wire Wire Line
-	8325 4150 7975 4150
-Wire Wire Line
-	7975 4150 7975 4000
-Wire Wire Line
-	7975 4000 8125 4000
-Connection ~ 7975 4150
-Text GLabel 8125 4000 2    50   Input ~ 0
-3.3V
-$Comp
-L power:GND #PWR022
-U 1 1 5CA7B717
-P 7825 5925
-F 0 "#PWR022" H 7825 5675 50  0001 C CNN
-F 1 "GND" H 7830 5752 50  0000 C CNN
-F 2 "" H 7825 5925 50  0001 C CNN
-F 3 "" H 7825 5925 50  0001 C CNN
-	1    7825 5925
-	1    0    0    -1  
-$EndComp
-Text GLabel 1650 1350 0    50   Input ~ 0
+Text GLabel 1600 1200 0    50   Input ~ 0
 SDA
-Text GLabel 1650 1450 0    50   Input ~ 0
+Text GLabel 1600 1300 0    50   Input ~ 0
 SCL
 Text GLabel 1325 4575 3    50   Input ~ 0
 SCL
@@ -775,43 +568,9 @@ Wire Wire Line
 	1325 4300 1325 4575
 Wire Wire Line
 	1125 4350 1225 4350
-$Comp
-L Switch:SW_DIP_x04 SW16
-U 1 1 5CA5F5D8
-P 8325 5900
-F 0 "SW16" H 8325 6367 50  0000 C CNN
-F 1 "SW_DIP_x04" H 8325 6276 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm" H 8325 5900 50  0001 C CNN
-F 3 "" H 8325 5900 50  0001 C CNN
-	1    8325 5900
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8625 6000
-NoConn ~ 8025 6000
 Wire Wire Line
 	1225 4350 1225 4575
 NoConn ~ 2300 4200
-Connection ~ 9850 5300
-Wire Wire Line
-	8750 5700 8750 5300
-Wire Wire Line
-	8750 5300 9250 5300
-Wire Wire Line
-	8625 5700 8750 5700
-Wire Wire Line
-	8025 5700 7825 5700
-Wire Wire Line
-	8025 5800 7825 5800
-Wire Wire Line
-	7825 5700 7825 5800
-Connection ~ 7825 5800
-Wire Wire Line
-	7825 5800 7825 5900
-Wire Wire Line
-	8025 5900 7825 5900
-Connection ~ 7825 5900
-Wire Wire Line
-	7825 5900 7825 5925
 Wire Wire Line
 	3150 5150 3050 5150
 Wire Wire Line
@@ -850,10 +609,6 @@ F 3 "" H 1550 5475 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1125 5175 1425 5175
-Wire Wire Line
-	1425 5175 1425 5475
-Text GLabel 1425 5475 3    50   Input ~ 0
-3.3V
 Wire Wire Line
 	1125 5125 1550 5125
 Wire Wire Line
@@ -916,91 +671,343 @@ NoConn ~ 2300 5275
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5CACD9B3
-P 4250 1925
-F 0 "H1" H 4350 1971 50  0000 L CNN
-F 1 "MountingHole" H 4350 1880 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 4250 1925 50  0001 C CNN
-F 3 "~" H 4250 1925 50  0001 C CNN
-	1    4250 1925
+P 4950 7075
+F 0 "H1" H 5050 7121 50  0000 L CNN
+F 1 "MountingHole" H 5050 7030 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 4950 7075 50  0001 C CNN
+F 3 "~" H 4950 7075 50  0001 C CNN
+	1    4950 7075
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5CACDB05
-P 4250 2125
-F 0 "H2" H 4350 2171 50  0000 L CNN
-F 1 "MountingHole" H 4350 2080 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 4250 2125 50  0001 C CNN
-F 3 "~" H 4250 2125 50  0001 C CNN
-	1    4250 2125
+P 4950 7275
+F 0 "H2" H 5050 7321 50  0000 L CNN
+F 1 "MountingHole" H 5050 7230 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 4950 7275 50  0001 C CNN
+F 3 "~" H 4950 7275 50  0001 C CNN
+	1    4950 7275
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5CACDB7D
-P 5000 1925
-F 0 "H3" H 5100 1971 50  0000 L CNN
-F 1 "MountingHole" H 5100 1880 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5000 1925 50  0001 C CNN
-F 3 "~" H 5000 1925 50  0001 C CNN
-	1    5000 1925
+P 5700 7075
+F 0 "H3" H 5800 7121 50  0000 L CNN
+F 1 "MountingHole" H 5800 7030 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5700 7075 50  0001 C CNN
+F 3 "~" H 5700 7075 50  0001 C CNN
+	1    5700 7075
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5CACDBF3
-P 5000 2125
-F 0 "H4" H 5100 2171 50  0000 L CNN
-F 1 "MountingHole" H 5100 2080 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5000 2125 50  0001 C CNN
-F 3 "~" H 5000 2125 50  0001 C CNN
-	1    5000 2125
+P 5700 7275
+F 0 "H4" H 5800 7321 50  0000 L CNN
+F 1 "MountingHole" H 5800 7230 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5700 7275 50  0001 C CNN
+F 3 "~" H 5700 7275 50  0001 C CNN
+	1    5700 7275
 	1    0    0    -1  
 $EndComp
+Text GLabel 1600 2100 0    50   Input ~ 0
+RESET
 $Comp
 L Interface_Expansion:MCP23017_SP U1
-U 1 1 5CAE5416
-P 2350 2150
-F 0 "U1" H 2350 3428 50  0000 C CNN
-F 1 "MCP23017_SP" H 2350 3337 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 2550 1150 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2550 1050 50  0001 L CNN
-	1    2350 2150
+U 1 1 5CB00FE0
+P 2300 2000
+F 0 "U1" H 2300 3278 50  0000 C CNN
+F 1 "MCP23017_SP" H 2300 3187 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 2500 1000 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2500 900 50  0001 L CNN
+	1    2300 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1650 2250 0    50   Input ~ 0
-RESET
+Text GLabel 5475 1775 2    50   Input ~ 0
+INT
 Wire Wire Line
-	1525 2050 1600 2050
+	5475 1775 4950 1775
 Wire Wire Line
-	1650 1950 1600 1950
+	4950 1775 4950 1600
 Wire Wire Line
-	1600 1950 1600 2050
-Connection ~ 1600 2050
-Wire Wire Line
-	1600 2050 1650 2050
-Wire Wire Line
-	2350 1050 3250 1050
-Wire Wire Line
-	2175 3250 2350 3250
-Connection ~ 2350 3250
-Wire Wire Line
-	2350 3250 2500 3250
-Wire Wire Line
-	2800 3250 2950 3250
-Text GLabel 9550 3400 2    50   Input ~ 0
-RESET
-Text GLabel 8950 3400 0    50   Input ~ 0
-3.3V
+	4950 1975 4950 1775
+Connection ~ 4950 1775
+Text GLabel 1600 1800 0    50   Input ~ 0
+INTB
+Text GLabel 1600 1900 0    50   Input ~ 0
+INTA
+Text GLabel 4350 1600 0    50   Input ~ 0
+INTA
+Text GLabel 4350 1975 0    50   Input ~ 0
+INTB
 $Comp
-L kbd:SW_PUSH SW17
-U 1 1 5CB049E4
-P 9250 3400
-F 0 "SW17" H 9250 3655 50  0000 C CNN
-F 1 "SW_PUSH" H 9250 3564 50  0000 C CNN
-F 2 "kbd:ResetSW_1side" H 9250 3400 50  0001 C CNN
-F 3 "" H 9250 3400 50  0000 C CNN
-	1    9250 3400
-	-1   0    0    -1  
+L Device:CP C2
+U 1 1 5CB169AA
+P 2650 3700
+F 0 "C2" V 2905 3700 50  0000 C CNN
+F 1 "47u/16V" V 2814 3700 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 2688 3550 50  0001 C CNN
+F 3 "~" H 2650 3700 50  0001 C CNN
+	1    2650 3700
+	0    -1   -1   0   
 $EndComp
+$Comp
+L Switch:SW_DIP_x04 SW16
+U 1 1 5CB21EC0
+P 8950 5000
+F 0 "SW16" H 8950 5467 50  0000 C CNN
+F 1 "SW_DIP_x04" H 8950 5376 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile" H 8950 5000 50  0001 C CNN
+F 3 "" H 8950 5000 50  0001 C CNN
+	1    8950 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7975 5000 0    50   Input ~ 0
+A2
+Text GLabel 7975 4900 0    50   Input ~ 0
+A1
+Text GLabel 7975 4800 0    50   Input ~ 0
+A0
+Text GLabel 8100 5600 0    50   Input ~ 0
+RESET
+$Comp
+L power:GND #PWR022
+U 1 1 5CB310C8
+P 9375 5800
+F 0 "#PWR022" H 9375 5550 50  0001 C CNN
+F 1 "GND" H 9380 5627 50  0000 C CNN
+F 2 "" H 9375 5800 50  0001 C CNN
+F 3 "" H 9375 5800 50  0001 C CNN
+	1    9375 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 4800 9375 4800
+Wire Wire Line
+	9375 4800 9375 4900
+Wire Wire Line
+	9250 4900 9375 4900
+Connection ~ 9375 4900
+Wire Wire Line
+	9250 5000 9375 5000
+Wire Wire Line
+	9375 4900 9375 5000
+Connection ~ 9375 5000
+Wire Wire Line
+	9250 5100 9375 5100
+Wire Wire Line
+	9375 5000 9375 5100
+Connection ~ 9375 5100
+Wire Wire Line
+	8150 4025 8150 4125
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5CB3D623
+P 8850 5600
+F 0 "SW17" H 8850 5885 50  0000 C CNN
+F 1 "SW_Push" H 8850 5794 50  0000 C CNN
+F 2 "kbd:ResetSW" H 8850 5800 50  0001 C CNN
+F 3 "" H 8850 5800 50  0001 C CNN
+	1    8850 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 5600 9375 5600
+Wire Wire Line
+	9375 5100 9375 5600
+Connection ~ 9375 5600
+Wire Wire Line
+	9375 5600 9375 5800
+Wire Wire Line
+	2300 900  3375 900 
+Wire Wire Line
+	2125 3100 2300 3100
+Wire Wire Line
+	2300 3100 2500 3100
+Wire Wire Line
+	2500 3100 2500 3250
+Connection ~ 2300 3100
+Wire Wire Line
+	2500 3250 2500 3700
+Connection ~ 2500 3250
+Wire Wire Line
+	2800 3700 2800 3250
+Wire Wire Line
+	2800 3250 3000 3250
+Connection ~ 2800 3250
+NoConn ~ 8650 5100
+$Comp
+L power:VCC #PWR0101
+U 1 1 5CB5F123
+P 2125 3100
+F 0 "#PWR0101" H 2125 2950 50  0001 C CNN
+F 1 "VCC" V 2143 3227 50  0000 L CNN
+F 2 "" H 2125 3100 50  0001 C CNN
+F 3 "" H 2125 3100 50  0001 C CNN
+	1    2125 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5CB5F22C
+P 8150 4025
+F 0 "#PWR0102" H 8150 3875 50  0001 C CNN
+F 1 "VCC" H 8167 4198 50  0000 C CNN
+F 2 "" H 8150 4025 50  0001 C CNN
+F 3 "" H 8150 4025 50  0001 C CNN
+	1    8150 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5CB61995
+P 4650 1600
+F 0 "D1" H 4650 1384 50  0000 C CNN
+F 1 "D" H 4650 1475 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 4650 1600 50  0001 C CNN
+F 3 "~" H 4650 1600 50  0001 C CNN
+	1    4650 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5CB61A51
+P 4650 1975
+F 0 "D2" H 4650 1759 50  0000 C CNN
+F 1 "D" H 4650 1850 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 4650 1975 50  0001 C CNN
+F 3 "~" H 4650 1975 50  0001 C CNN
+	1    4650 1975
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 1600 4500 1600
+Wire Wire Line
+	4350 1975 4500 1975
+Wire Wire Line
+	4800 1975 4950 1975
+Wire Wire Line
+	4800 1600 4950 1600
+$Comp
+L Device:R_Network05 RN1
+U 1 1 5CAF65D0
+P 8350 4325
+F 0 "RN1" H 8630 4371 50  0000 L CNN
+F 1 "10k" H 8630 4280 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP6" V 8725 4325 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8350 4325 50  0001 C CNN
+	1    8350 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR023
+U 1 1 5CAF6448
+P 4675 2725
+F 0 "#PWR023" H 4675 2575 50  0001 C CNN
+F 1 "VCC" H 4692 2898 50  0000 C CNN
+F 2 "" H 4675 2725 50  0001 C CNN
+F 3 "" H 4675 2725 50  0001 C CNN
+	1    4675 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 5CAF66C5
+P 4675 3025
+F 0 "#PWR024" H 4675 2775 50  0001 C CNN
+F 1 "GND" H 4680 2852 50  0000 C CNN
+F 2 "" H 4675 3025 50  0001 C CNN
+F 3 "" H 4675 3025 50  0001 C CNN
+	1    4675 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5CAF672C
+P 4875 2875
+F 0 "C4" H 4990 2921 50  0000 L CNN
+F 1 "1u" H 4990 2830 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 4913 2725 50  0001 C CNN
+F 3 "~" H 4875 2875 50  0001 C CNN
+	1    4875 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5CAF679C
+P 4475 2875
+F 0 "C3" H 4590 2921 50  0000 L CNN
+F 1 "1u" H 4590 2830 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 4513 2725 50  0001 C CNN
+F 3 "~" H 4475 2875 50  0001 C CNN
+	1    4475 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 2725 4675 2725
+Connection ~ 4675 2725
+Wire Wire Line
+	4675 2725 4875 2725
+Wire Wire Line
+	4475 3025 4675 3025
+Connection ~ 4675 3025
+Wire Wire Line
+	4675 3025 4875 3025
+$Comp
+L power:VCC #PWR0103
+U 1 1 5CAFF518
+P 1425 5675
+F 0 "#PWR0103" H 1425 5525 50  0001 C CNN
+F 1 "VCC" H 1443 5848 50  0000 C CNN
+F 2 "" H 1425 5675 50  0001 C CNN
+F 3 "" H 1425 5675 50  0001 C CNN
+	1    1425 5675
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1425 5175 1425 5675
+$Comp
+L power:VCC #PWR0104
+U 1 1 5CB016DE
+P 1425 4725
+F 0 "#PWR0104" H 1425 4575 50  0001 C CNN
+F 1 "VCC" H 1443 4898 50  0000 C CNN
+F 2 "" H 1425 4725 50  0001 C CNN
+F 3 "" H 1425 4725 50  0001 C CNN
+	1    1425 4725
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1425 4250 1425 4725
+NoConn ~ 8150 4525
+Wire Wire Line
+	7975 4900 8450 4900
+Wire Wire Line
+	7975 5000 8350 5000
+Wire Wire Line
+	8550 4525 8550 4800
+Wire Wire Line
+	7975 4800 8550 4800
+Connection ~ 8550 4800
+Wire Wire Line
+	8550 4800 8650 4800
+Wire Wire Line
+	8450 4525 8450 4900
+Connection ~ 8450 4900
+Wire Wire Line
+	8450 4900 8650 4900
+Wire Wire Line
+	8350 4525 8350 5000
+Connection ~ 8350 5000
+Wire Wire Line
+	8350 5000 8650 5000
+Wire Wire Line
+	8250 4525 8250 5600
+Wire Wire Line
+	8100 5600 8250 5600
+Connection ~ 8250 5600
+Wire Wire Line
+	8250 5600 8650 5600
 $EndSCHEMATC
