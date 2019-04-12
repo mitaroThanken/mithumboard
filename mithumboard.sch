@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:mithumboard-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -725,22 +725,15 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2500 900 5
 	1    2300 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 5475 1775 2    50   Input ~ 0
+Text GLabel 4875 1800 2    50   Input ~ 0
 INT
-Wire Wire Line
-	5475 1775 4950 1775
-Wire Wire Line
-	4950 1775 4950 1600
-Wire Wire Line
-	4950 1975 4950 1775
-Connection ~ 4950 1775
 Text GLabel 1600 1800 0    50   Input ~ 0
 INTB
 Text GLabel 1600 1900 0    50   Input ~ 0
 INTA
 Text GLabel 4350 1600 0    50   Input ~ 0
 INTA
-Text GLabel 4350 1975 0    50   Input ~ 0
+Text GLabel 4350 2000 0    50   Input ~ 0
 INTB
 $Comp
 L Device:CP C2
@@ -860,36 +853,8 @@ F 3 "" H 8150 4025 50  0001 C CNN
 	1    8150 4025
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D D1
-U 1 1 5CB61995
-P 4650 1600
-F 0 "D1" H 4650 1384 50  0000 C CNN
-F 1 "D" H 4650 1475 50  0000 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 4650 1600 50  0001 C CNN
-F 3 "~" H 4650 1600 50  0001 C CNN
-	1    4650 1600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D2
-U 1 1 5CB61A51
-P 4650 1975
-F 0 "D2" H 4650 1759 50  0000 C CNN
-F 1 "D" H 4650 1850 50  0000 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 4650 1975 50  0001 C CNN
-F 3 "~" H 4650 1975 50  0001 C CNN
-	1    4650 1975
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4350 1600 4500 1600
-Wire Wire Line
-	4350 1975 4500 1975
-Wire Wire Line
-	4800 1975 4950 1975
-Wire Wire Line
-	4800 1600 4950 1600
 $Comp
 L Device:R_Network05 RN1
 U 1 1 5CAF65D0
@@ -1010,4 +975,46 @@ Wire Wire Line
 Connection ~ 8250 5600
 Wire Wire Line
 	8250 5600 8650 5600
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 5CB0ABE4
+P 4500 1800
+F 0 "JP1" V 4454 1868 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 4545 1868 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm" H 4500 1800 50  0001 C CNN
+F 3 "~" H 4500 1800 50  0001 C CNN
+	1    4500 1800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4350 2000 4500 2000
+Wire Wire Line
+	4650 1800 4750 1800
+$Comp
+L Device:R R1
+U 1 1 5CB0E71B
+P 4750 1550
+F 0 "R1" H 4820 1596 50  0000 L CNN
+F 1 "R" H 4820 1505 50  0000 L CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 4680 1550 50  0001 C CNN
+F 3 "~" H 4750 1550 50  0001 C CNN
+	1    4750 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1700 4750 1800
+Connection ~ 4750 1800
+Wire Wire Line
+	4750 1800 4875 1800
+$Comp
+L power:VCC #PWR025
+U 1 1 5CB1057B
+P 4750 1400
+F 0 "#PWR025" H 4750 1250 50  0001 C CNN
+F 1 "VCC" H 4767 1573 50  0000 C CNN
+F 2 "" H 4750 1400 50  0001 C CNN
+F 3 "" H 4750 1400 50  0001 C CNN
+	1    4750 1400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
