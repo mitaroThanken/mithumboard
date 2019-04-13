@@ -975,17 +975,6 @@ Wire Wire Line
 Connection ~ 8250 5600
 Wire Wire Line
 	8250 5600 8650 5600
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP1
-U 1 1 5CB0ABE4
-P 4500 1800
-F 0 "JP1" V 4454 1868 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 4545 1868 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm" H 4500 1800 50  0001 C CNN
-F 3 "~" H 4500 1800 50  0001 C CNN
-	1    4500 1800
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	4350 2000 4500 2000
 Wire Wire Line
@@ -1016,5 +1005,16 @@ F 2 "" H 4750 1400 50  0001 C CNN
 F 3 "" H 4750 1400 50  0001 C CNN
 	1    4750 1400
 	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 5CB238AA
+P 4500 1800
+F 0 "JP1" V 4454 1868 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 4545 1868 50  0000 L CNN
+F 2 "Keebio-Parts:3_Pin_Jumper" H 4500 1800 50  0001 C CNN
+F 3 "~" H 4500 1800 50  0001 C CNN
+	1    4500 1800
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC
