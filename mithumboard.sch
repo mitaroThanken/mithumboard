@@ -712,29 +712,6 @@ F 3 "~" H 5700 7275 50  0001 C CNN
 	1    5700 7275
 	1    0    0    -1  
 $EndComp
-Text GLabel 1600 2100 0    50   Input ~ 0
-RESET
-$Comp
-L Interface_Expansion:MCP23017_SP U1
-U 1 1 5CB00FE0
-P 2300 2000
-F 0 "U1" H 2300 3278 50  0000 C CNN
-F 1 "MCP23017_SP" H 2300 3187 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 2500 1000 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2500 900 50  0001 L CNN
-	1    2300 2000
-	1    0    0    -1  
-$EndComp
-Text GLabel 4875 1800 2    50   Input ~ 0
-INT
-Text GLabel 1600 1800 0    50   Input ~ 0
-INTB
-Text GLabel 1600 1900 0    50   Input ~ 0
-INTA
-Text GLabel 4350 1600 0    50   Input ~ 0
-INTA
-Text GLabel 4350 2000 0    50   Input ~ 0
-INTB
 $Comp
 L Device:CP C2
 U 1 1 5CB169AA
@@ -757,23 +734,21 @@ F 3 "" H 8950 5000 50  0001 C CNN
 	1    8950 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 7975 5000 0    50   Input ~ 0
+Text GLabel 8600 5000 0    50   Input ~ 0
 A2
-Text GLabel 7975 4900 0    50   Input ~ 0
+Text GLabel 8600 4900 0    50   Input ~ 0
 A1
-Text GLabel 7975 4800 0    50   Input ~ 0
+Text GLabel 8600 4800 0    50   Input ~ 0
 A0
-Text GLabel 8100 5600 0    50   Input ~ 0
-RESET
 $Comp
 L power:GND #PWR022
 U 1 1 5CB310C8
-P 9375 5800
-F 0 "#PWR022" H 9375 5550 50  0001 C CNN
-F 1 "GND" H 9380 5627 50  0000 C CNN
-F 2 "" H 9375 5800 50  0001 C CNN
-F 3 "" H 9375 5800 50  0001 C CNN
-	1    9375 5800
+P 9375 5200
+F 0 "#PWR022" H 9375 4950 50  0001 C CNN
+F 1 "GND" H 9380 5027 50  0000 C CNN
+F 2 "" H 9375 5200 50  0001 C CNN
+F 3 "" H 9375 5200 50  0001 C CNN
+	1    9375 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -794,34 +769,9 @@ Wire Wire Line
 	9375 5000 9375 5100
 Connection ~ 9375 5100
 Wire Wire Line
-	8150 4025 8150 4125
-$Comp
-L Switch:SW_Push SW17
-U 1 1 5CB3D623
-P 8850 5600
-F 0 "SW17" H 8850 5885 50  0000 C CNN
-F 1 "SW_Push" H 8850 5794 50  0000 C CNN
-F 2 "kbd:ResetSW" H 8850 5800 50  0001 C CNN
-F 3 "" H 8850 5800 50  0001 C CNN
-	1    8850 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9050 5600 9375 5600
-Wire Wire Line
-	9375 5100 9375 5600
-Connection ~ 9375 5600
-Wire Wire Line
-	9375 5600 9375 5800
-Wire Wire Line
 	2300 900  3375 900 
 Wire Wire Line
-	2125 3100 2300 3100
-Wire Wire Line
-	2300 3100 2500 3100
-Wire Wire Line
 	2500 3100 2500 3250
-Connection ~ 2300 3100
 Wire Wire Line
 	2500 3250 2500 3700
 Connection ~ 2500 3250
@@ -841,30 +791,6 @@ F 2 "" H 2125 3100 50  0001 C CNN
 F 3 "" H 2125 3100 50  0001 C CNN
 	1    2125 3100
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VCC #PWR0102
-U 1 1 5CB5F22C
-P 8150 4025
-F 0 "#PWR0102" H 8150 3875 50  0001 C CNN
-F 1 "VCC" H 8167 4198 50  0000 C CNN
-F 2 "" H 8150 4025 50  0001 C CNN
-F 3 "" H 8150 4025 50  0001 C CNN
-	1    8150 4025
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4350 1600 4500 1600
-$Comp
-L Device:R_Network05 RN1
-U 1 1 5CAF65D0
-P 8350 4325
-F 0 "RN1" H 8630 4371 50  0000 L CNN
-F 1 "10k" H 8630 4280 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP6" V 8725 4325 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8350 4325 50  0001 C CNN
-	1    8350 4325
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR023
@@ -946,75 +872,30 @@ F 3 "" H 1425 4725 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1425 4250 1425 4725
-NoConn ~ 8150 4525
-Wire Wire Line
-	7975 4900 8450 4900
-Wire Wire Line
-	7975 5000 8350 5000
-Wire Wire Line
-	8550 4525 8550 4800
-Wire Wire Line
-	7975 4800 8550 4800
-Connection ~ 8550 4800
-Wire Wire Line
-	8550 4800 8650 4800
-Wire Wire Line
-	8450 4525 8450 4900
-Connection ~ 8450 4900
-Wire Wire Line
-	8450 4900 8650 4900
-Wire Wire Line
-	8350 4525 8350 5000
-Connection ~ 8350 5000
-Wire Wire Line
-	8350 5000 8650 5000
-Wire Wire Line
-	8250 4525 8250 5600
-Wire Wire Line
-	8100 5600 8250 5600
-Connection ~ 8250 5600
-Wire Wire Line
-	8250 5600 8650 5600
-Wire Wire Line
-	4350 2000 4500 2000
-Wire Wire Line
-	4650 1800 4750 1800
 $Comp
-L Device:R R1
-U 1 1 5CB0E71B
-P 4750 1550
-F 0 "R1" H 4820 1596 50  0000 L CNN
-F 1 "R" H 4820 1505 50  0000 L CNN
-F 2 "Keebio-Parts:Resistor-Hybrid" V 4680 1550 50  0001 C CNN
-F 3 "~" H 4750 1550 50  0001 C CNN
-	1    4750 1550
+L Interface_Expansion:TCA9555PWR U1
+U 1 1 5CB56A0B
+P 2300 2000
+F 0 "U1" H 2300 3281 50  0000 C CNN
+F 1 "TCA9555PWR" H 2300 3190 50  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 3350 1000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 1800 2900 50  0001 C CNN
+	1    2300 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 1700 4750 1800
-Connection ~ 4750 1800
+	2125 3100 2300 3100
+Connection ~ 2300 3100
 Wire Wire Line
-	4750 1800 4875 1800
-$Comp
-L power:VCC #PWR025
-U 1 1 5CB1057B
-P 4750 1400
-F 0 "#PWR025" H 4750 1250 50  0001 C CNN
-F 1 "VCC" H 4767 1573 50  0000 C CNN
-F 2 "" H 4750 1400 50  0001 C CNN
-F 3 "" H 4750 1400 50  0001 C CNN
-	1    4750 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP1
-U 1 1 5CB238AA
-P 4500 1800
-F 0 "JP1" V 4454 1868 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 4545 1868 50  0000 L CNN
-F 2 "Keebio-Parts:3_Pin_Jumper" H 4500 1800 50  0001 C CNN
-F 3 "~" H 4500 1800 50  0001 C CNN
-	1    4500 1800
-	0    -1   1    0   
-$EndComp
+	2300 3100 2500 3100
+Text GLabel 1600 1400 0    50   Input ~ 0
+INT
+Wire Wire Line
+	9375 5100 9375 5200
+Wire Wire Line
+	8600 5000 8650 5000
+Wire Wire Line
+	8600 4900 8650 4900
+Wire Wire Line
+	8600 4800 8650 4800
 $EndSCHEMATC
