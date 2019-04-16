@@ -97,37 +97,36 @@ Text GLabel 1600 2700 0    50   Input ~ 0
 A1
 Text GLabel 1600 2800 0    50   Input ~ 0
 A0
-Text GLabel 3000 1700 2    50   Input ~ 0
+Text GLabel 3000 2300 2    50   Input ~ 0
 R1C1
-Text GLabel 3000 1400 2    50   Input ~ 0
+Text GLabel 3000 2600 2    50   Input ~ 0
 R1C2
 Text GLabel 3000 1200 2    50   Input ~ 0
 R1C3
-Text GLabel 3000 2500 2    50   Input ~ 0
-R1C4
-Text GLabel 3000 2800 2    50   Input ~ 0
-R1C5
-Text GLabel 3000 1800 2    50   Input ~ 0
-R2C1
 Text GLabel 3000 1500 2    50   Input ~ 0
-R2C2
-Text GLabel 3000 1300 2    50   Input ~ 0
-R2C3
-Text GLabel 3000 2400 2    50   Input ~ 0
-R2C4
-Text GLabel 3000 2600 2    50   Input ~ 0
-R2C5
-Text GLabel 3000 1900 2    50   Input ~ 0
-R3C1
-Text GLabel 3000 2100 2    50   Input ~ 0
-R3C3
-Text GLabel 3000 2300 2    50   Input ~ 0
-R3C4
-Text GLabel 3000 2700 2    50   Input ~ 0
-R3C5
+R1C4
 Text GLabel 3000 1600 2    50   Input ~ 0
+R1C5
+Text GLabel 3000 2200 2    50   Input ~ 0
+R2C1
+Text GLabel 3000 2500 2    50   Input ~ 0
+R2C2
+Text GLabel 3000 2700 2    50   Input ~ 0
+R2C3
+Text GLabel 3000 1400 2    50   Input ~ 0
+R2C4
+Text GLabel 3000 1700 2    50   Input ~ 0
+R2C5
+Text GLabel 3000 2100 2    50   Input ~ 0
+R3C1
+Text GLabel 3000 2800 2    50   Input ~ 0
+R3C3
+Text GLabel 3000 1300 2    50   Input ~ 0
+R3C4
+Text GLabel 3000 1800 2    50   Input ~ 0
+R3C5
+Text GLabel 3000 2400 2    50   Input ~ 0
 R3C2
-NoConn ~ 3000 2200
 $Comp
 L power:GND #PWR03
 U 1 1 5CA56CA6
@@ -259,7 +258,7 @@ F 1 "SW_Push" H 7100 4494 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 7100 4500 50  0001 C CNN
 F 3 "" H 7100 4500 50  0001 C CNN
 	1    7100 4300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6900 4300 6800 4300
@@ -335,7 +334,7 @@ F 1 "SW_Push" H 5275 5344 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 5275 5350 50  0001 C CNN
 F 3 "" H 5275 5350 50  0001 C CNN
 	1    5275 5150
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4950 5150 4950 5250
@@ -459,7 +458,7 @@ F 1 "SW_Push" H 5275 6194 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 5275 6200 50  0001 C CNN
 F 3 "" H 5275 6200 50  0001 C CNN
 	1    5275 6000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4925 6000 4925 6100
@@ -898,4 +897,5 @@ Wire Wire Line
 	8600 4900 8650 4900
 Wire Wire Line
 	8600 4800 8650 4800
+NoConn ~ 3000 1900
 $EndSCHEMATC
