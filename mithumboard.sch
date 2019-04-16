@@ -64,7 +64,7 @@ U 1 1 5CA55176
 P 2650 3250
 F 0 "C1" V 2398 3250 50  0000 C CNN
 F 1 "0.1u" V 2489 3250 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 2688 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2688 3100 50  0001 C CNN
 F 3 "~" H 2650 3250 50  0001 C CNN
 	1    2650 3250
 	0    -1   1    0   
@@ -145,7 +145,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 4200 1550 4550
 NoConn ~ 2300 4250
-Text GLabel 2400 4300 2    50   Input ~ 0
+Text GLabel 2575 4300 2    50   Input ~ 0
 INT
 $Comp
 L Switch:SW_Push SW1
@@ -650,7 +650,7 @@ Wire Wire Line
 	2300 4300 2400 4300
 NoConn ~ 2300 4350
 NoConn ~ 2300 5175
-Text GLabel 2400 5225 2    50   Input ~ 0
+Text GLabel 2550 5225 2    50   Input ~ 0
 INT
 NoConn ~ 2300 5125
 $Comp
@@ -717,7 +717,7 @@ U 1 1 5CB169AA
 P 2650 3700
 F 0 "C2" V 2905 3700 50  0000 C CNN
 F 1 "47u/16V" V 2814 3700 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 2688 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon" H 2688 3550 50  0001 C CNN
 F 3 "~" H 2650 3700 50  0001 C CNN
 	1    2650 3700
 	0    -1   -1   0   
@@ -819,7 +819,7 @@ U 1 1 5CAF672C
 P 4875 2875
 F 0 "C4" H 4990 2921 50  0000 L CNN
 F 1 "1u" H 4990 2830 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 4913 2725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4913 2725 50  0001 C CNN
 F 3 "~" H 4875 2875 50  0001 C CNN
 	1    4875 2875
 	1    0    0    -1  
@@ -830,7 +830,7 @@ U 1 1 5CAF679C
 P 4475 2875
 F 0 "C3" H 4590 2921 50  0000 L CNN
 F 1 "1u" H 4590 2830 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 4513 2725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4513 2725 50  0001 C CNN
 F 3 "~" H 4475 2875 50  0001 C CNN
 	1    4475 2875
 	1    0    0    -1  
@@ -898,4 +898,36 @@ Wire Wire Line
 Wire Wire Line
 	8600 4800 8650 4800
 NoConn ~ 3000 1900
+$Comp
+L Device:R R1
+U 1 1 5CB64C35
+P 2400 5625
+F 0 "R1" H 2470 5671 50  0000 L CNN
+F 1 "10k" H 2470 5580 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2330 5625 50  0001 C CNN
+F 3 "~" H 2400 5625 50  0001 C CNN
+	1    2400 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5CB65184
+P 2400 5775
+F 0 "#PWR0102" H 2400 5625 50  0001 C CNN
+F 1 "VCC" H 2418 5948 50  0000 C CNN
+F 2 "" H 2400 5775 50  0001 C CNN
+F 3 "" H 2400 5775 50  0001 C CNN
+	1    2400 5775
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 5475 2400 5225
+Connection ~ 2400 4300
+Wire Wire Line
+	2400 4300 2575 4300
+Connection ~ 2400 5225
+Wire Wire Line
+	2400 5225 2550 5225
+Wire Wire Line
+	2400 5225 2400 4300
 $EndSCHEMATC
