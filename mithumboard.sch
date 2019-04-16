@@ -105,7 +105,7 @@ Text GLabel 3000 1200 2    50   Input ~ 0
 R1C3
 Text GLabel 3000 2500 2    50   Input ~ 0
 R1C4
-Text GLabel 3000 2800 2    50   Input ~ 0
+Text GLabel 3000 2600 2    50   Input ~ 0
 R1C5
 Text GLabel 3000 1800 2    50   Input ~ 0
 R2C1
@@ -115,7 +115,7 @@ Text GLabel 3000 1300 2    50   Input ~ 0
 R2C3
 Text GLabel 3000 2400 2    50   Input ~ 0
 R2C4
-Text GLabel 3000 2600 2    50   Input ~ 0
+Text GLabel 3000 2700 2    50   Input ~ 0
 R2C5
 Text GLabel 3000 1900 2    50   Input ~ 0
 R3C1
@@ -123,7 +123,7 @@ Text GLabel 3000 2100 2    50   Input ~ 0
 R3C3
 Text GLabel 3000 2300 2    50   Input ~ 0
 R3C4
-Text GLabel 3000 2700 2    50   Input ~ 0
+Text GLabel 3000 2800 2    50   Input ~ 0
 R3C5
 Text GLabel 3000 1600 2    50   Input ~ 0
 R3C2
@@ -259,7 +259,7 @@ F 1 "SW_Push" H 7100 4494 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 7100 4500 50  0001 C CNN
 F 3 "" H 7100 4500 50  0001 C CNN
 	1    7100 4300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6900 4300 6800 4300
