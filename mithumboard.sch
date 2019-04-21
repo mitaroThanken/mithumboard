@@ -728,16 +728,16 @@ U 1 1 5CB21EC0
 P 8950 5000
 F 0 "SW16" H 8950 5467 50  0000 C CNN
 F 1 "SW_DIP_x04" H 8950 5376 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile" H 8950 5000 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_Copal_CHS-04B_W7.62mm_P1.27mm" H 8950 5000 50  0001 C CNN
 F 3 "" H 8950 5000 50  0001 C CNN
 	1    8950 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 8600 5000 0    50   Input ~ 0
+Text GLabel 8600 4800 0    50   Input ~ 0
 A2
 Text GLabel 8600 4900 0    50   Input ~ 0
 A1
-Text GLabel 8600 4800 0    50   Input ~ 0
+Text GLabel 8600 5000 0    50   Input ~ 0
 A0
 $Comp
 L power:GND #PWR022
