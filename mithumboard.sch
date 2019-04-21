@@ -97,37 +97,36 @@ Text GLabel 1600 2700 0    50   Input ~ 0
 A1
 Text GLabel 1600 2800 0    50   Input ~ 0
 A0
-Text GLabel 3000 1700 2    50   Input ~ 0
-R1C1
 Text GLabel 3000 1400 2    50   Input ~ 0
-R1C2
-Text GLabel 3000 1200 2    50   Input ~ 0
-R1C3
-Text GLabel 3000 2500 2    50   Input ~ 0
-R1C4
-Text GLabel 3000 2600 2    50   Input ~ 0
-R1C5
-Text GLabel 3000 1800 2    50   Input ~ 0
-R2C1
+R1C1
 Text GLabel 3000 1500 2    50   Input ~ 0
-R2C2
-Text GLabel 3000 1300 2    50   Input ~ 0
-R2C3
-Text GLabel 3000 2400 2    50   Input ~ 0
-R2C4
+R1C2
 Text GLabel 3000 2700 2    50   Input ~ 0
-R2C5
-Text GLabel 3000 1900 2    50   Input ~ 0
-R3C1
-Text GLabel 3000 2100 2    50   Input ~ 0
-R3C3
+R1C3
 Text GLabel 3000 2300 2    50   Input ~ 0
-R3C4
-Text GLabel 3000 2800 2    50   Input ~ 0
-R3C5
+R1C4
+Text GLabel 3000 1700 2    50   Input ~ 0
+R1C5
+Text GLabel 3000 1300 2    50   Input ~ 0
+R2C1
 Text GLabel 3000 1600 2    50   Input ~ 0
+R2C2
+Text GLabel 3000 2600 2    50   Input ~ 0
+R2C3
+Text GLabel 3000 2200 2    50   Input ~ 0
+R2C4
+Text GLabel 3000 1800 2    50   Input ~ 0
+R2C5
+Text GLabel 3000 1200 2    50   Input ~ 0
+R3C1
+Text GLabel 3000 2500 2    50   Input ~ 0
+R3C3
+Text GLabel 3000 2100 2    50   Input ~ 0
+R3C4
+Text GLabel 3000 1900 2    50   Input ~ 0
+R3C5
+Text GLabel 3000 2800 2    50   Input ~ 0
 R3C2
-NoConn ~ 3000 2200
 $Comp
 L power:GND #PWR03
 U 1 1 5CA56CA6
@@ -183,7 +182,7 @@ F 1 "SW_Push" H 4300 4494 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 4300 4500 50  0001 C CNN
 F 3 "" H 4300 4500 50  0001 C CNN
 	1    4300 4300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4100 4300 4000 4300
@@ -209,7 +208,7 @@ F 1 "SW_Push" H 5250 4494 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 5250 4500 50  0001 C CNN
 F 3 "" H 5250 4500 50  0001 C CNN
 	1    5250 4300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4925 4300 4925 4425
@@ -233,7 +232,7 @@ F 1 "SW_Push" H 6150 4494 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 6150 4500 50  0001 C CNN
 F 3 "" H 6150 4500 50  0001 C CNN
 	1    6150 4300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5950 4300 5850 4300
@@ -309,7 +308,7 @@ F 1 "SW_Push" H 4300 5344 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 4300 5350 50  0001 C CNN
 F 3 "" H 4300 5350 50  0001 C CNN
 	1    4300 5150
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4100 5150 4000 5150
@@ -335,7 +334,7 @@ F 1 "SW_Push" H 5275 5344 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 5275 5350 50  0001 C CNN
 F 3 "" H 5275 5350 50  0001 C CNN
 	1    5275 5150
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4950 5150 4950 5250
@@ -359,7 +358,7 @@ F 1 "SW_Push" H 6200 5344 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 6200 5350 50  0001 C CNN
 F 3 "" H 6200 5350 50  0001 C CNN
 	1    6200 5150
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5850 5150 5850 5250
@@ -409,7 +408,7 @@ F 1 "SW_Push" H 3350 6194 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 3350 6200 50  0001 C CNN
 F 3 "" H 3350 6200 50  0001 C CNN
 	1    3350 6000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3050 6000 3050 6100
@@ -459,7 +458,7 @@ F 1 "SW_Push" H 5275 6194 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 5275 6200 50  0001 C CNN
 F 3 "" H 5275 6200 50  0001 C CNN
 	1    5275 6000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4925 6000 4925 6100
@@ -483,7 +482,7 @@ F 1 "SW_Push" H 6150 6194 50  0000 C CNN
 F 2 "kbd:CherryMX_Choc_Hotswap_1side" H 6150 6200 50  0001 C CNN
 F 3 "" H 6150 6200 50  0001 C CNN
 	1    6150 6000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5950 6000 5850 6000
@@ -714,17 +713,6 @@ F 3 "~" H 5700 7275 50  0001 C CNN
 $EndComp
 Text GLabel 1600 2100 0    50   Input ~ 0
 RESET
-$Comp
-L Interface_Expansion:MCP23017_SP U1
-U 1 1 5CB00FE0
-P 2300 2000
-F 0 "U1" H 2300 3278 50  0000 C CNN
-F 1 "MCP23017_SP" H 2300 3187 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 2500 1000 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2500 900 50  0001 L CNN
-	1    2300 2000
-	1    0    0    -1  
-$EndComp
 Text GLabel 1600 1800 0    50   Input ~ 0
 INTB
 Text GLabel 1600 1900 0    50   Input ~ 0
@@ -810,12 +798,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 900  3375 900 
 Wire Wire Line
-	2125 3100 2300 3100
-Wire Wire Line
-	2300 3100 2500 3100
-Wire Wire Line
 	2500 3100 2500 3250
-Connection ~ 2300 3100
 Wire Wire Line
 	2500 3250 2500 3700
 Connection ~ 2500 3250
@@ -889,7 +872,7 @@ F 1 "1u" H 4990 2830 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 4913 2725 50  0001 C CNN
 F 3 "~" H 4875 2875 50  0001 C CNN
 	1    4875 2875
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C3
@@ -900,7 +883,7 @@ F 1 "1u" H 4590 2830 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 4513 2725 50  0001 C CNN
 F 3 "~" H 4475 2875 50  0001 C CNN
 	1    4475 2875
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4475 2725 4675 2725
@@ -955,7 +938,7 @@ F 1 "Jumper_2_Open" V 8505 5998 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 8550 5900 50  0001 C CNN
 F 3 "~" H 8550 5900 50  0001 C CNN
 	1    8550 5900
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	8550 4525 8550 5700
@@ -1001,10 +984,27 @@ F 1 "Jumper_3_Open" V 8180 6287 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 8225 6200 50  0001 C CNN
 F 3 "~" H 8225 6200 50  0001 C CNN
 	1    8225 6200
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	8075 5950 8225 5950
 Text GLabel 8075 5950 0    50   Input ~ 0
 INTB
+Connection ~ 2300 3100
+Wire Wire Line
+	2300 3100 2500 3100
+Wire Wire Line
+	2125 3100 2300 3100
+$Comp
+L Interface_Expansion:MCP23017_SP U1
+U 1 1 5CB00FE0
+P 2300 2000
+F 0 "U1" H 2300 3278 50  0000 C CNN
+F 1 "MCP23017_SP" H 2300 3187 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 2500 1000 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2500 900 50  0001 L CNN
+	1    2300 2000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3000 2400
 $EndSCHEMATC
